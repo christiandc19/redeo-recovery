@@ -6,6 +6,7 @@ import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import TreatmentPage from './routes/TreatmentPage'
+import TestimonialPage from './routes/TestimonialPage'
 import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import ResidencePage from './routes/ResidencePage'
@@ -70,11 +71,14 @@ ReactDOM.render(
       <Route exact path='/schizophrenia' element={<Schizophrenia />} />
 
       <Route exact path='/jobs' element={<Jobs />} />
-      <Route exact path='/treatment' element={<TreatmentPage />} />
-      <Route exact path='/mission' element={<MissionPage />} />
 
+      <Route exact path='/treatment' element={<TreatmentPage />} />
+
+      <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/team' element={<Team />} />
+      <Route exact path='/testimonials' element={<TestimonialPage />} />
+
 
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />

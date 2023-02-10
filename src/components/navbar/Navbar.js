@@ -97,8 +97,8 @@ const Navbar = () => {
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Testimonials </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/testimonials`}> Testimonials </NavLink> </li>
+                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li> */}
 
                         </ul>
                     </li>

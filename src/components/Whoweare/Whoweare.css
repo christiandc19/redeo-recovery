@@ -20,20 +20,20 @@
 
 .wrap .header {
     text-align: left;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .wrap .header2 {
-    text-align: left;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
 .wrap .header2 span {
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -83,9 +83,22 @@
         height: 50px;
     }
 
-    .wrap p {
+    .wrap p, .wrap .header2 {
         font-size: 14px;
         margin: 1rem;
+    }
+
+    .wrap .header2 {
+        font-size: 14px;
+        margin: 0 1rem;
+    }
+
+    .wrap .header {
+        margin: 0 1rem
+    }
+
+    .wrap .header2 span {
+        font-size: 22px;
     }
 
     .left .Whoweare-icon{
