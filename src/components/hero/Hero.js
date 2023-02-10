@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
 import Wave from '../../assets/waves.svg'
+import HeroLogo from '../../assets/hero-logo.png'
+
 
 const Hero = () => {
     return (
@@ -16,10 +18,10 @@ const Hero = () => {
             </div>
 
 
-            <div className="hero-container">
+            <div className="hero-container container">
                 <div className="content">
                     <Fade right>
-                        <h1>RODEO RECOVERY</h1>
+                        <img src={HeroLogo} loading="lazy" width="500px" height="150px" repeat-x alt='wave divider'/>
                     </Fade>
                     <Fade left>
                         <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
@@ -32,7 +34,7 @@ const Hero = () => {
                     </div>
                     <br />
                     <Fade bottom>
-                        <p>Walk the road of recovery with us</p>
+                        <p><i>"Walk the road of recovery with us"</i></p>
                     </Fade>
                 </div>
             </div>

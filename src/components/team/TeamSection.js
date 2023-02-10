@@ -2,14 +2,6 @@ import React from 'react'
 import './TeamSection.css'
 import Fade from 'react-reveal/Fade';
 
-import Team1 from '../../assets/team1-min.jpg'
-import Team2 from '../../assets/team2-min.jpg'
-import Team3 from '../../assets/team3-min.jpg'
-import Team4 from '../../assets/team4-min.jpg'
-import Team5 from '../../assets/team5-min.jpg'
-import Team6 from '../../assets/team6-min.jpg'
-
-
 
 const TeamSection = () => {
     return (
@@ -23,9 +15,9 @@ const TeamSection = () => {
                     <div className='flex-right'>
                     <Fade top>
                     <div className='thumbnail'>
-                        <img src={ Team1 } width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team1-min.jpg" width="300" height="250" alt="Therapy Session" loading="lazy"/>
                         <div>                   
-                        <p>Joey<br/>Physical Therapist</p>
+                        <p><b>Ashley Shelton</b><br/><i>Clinical Director</i></p>
                         </div>
                     </div>
                     </Fade>
@@ -33,40 +25,59 @@ const TeamSection = () => {
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Team2 } width="300" height="250" alt="Clinic Staff" loading="lazy"/>
-                    <p>Rachel<br/>Physical Therapist</p>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team2-min.jpg" width="300" height="250" alt="Clinic Staff" loading="lazy"/>
+                    <p><b>Dennis Rivera</b><br/><i>Operations Director</i></p>
                     </div>
                     </Fade>
 
                     <Fade top>
                     <div className='thumbnail'>
-                    <img src={ Team3 } width="300" height="250" alt="Bluecross  Logo" loading="lazy"/>
-                    <p>Monica<br/>Physical Therapist</p>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team3-min.jpg" width="300" height="250" alt="Bluecross  Logo" loading="lazy"/>
+                    <p><b>Honey Phipps</b><br/><i>Executive Director</i></p>
                     </div>
                     </Fade>
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Team4 } width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p>Ross<br/>Physical Therapist</p>  
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team4-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                        <p><b>Evonne Meza</b><br/><i>Therapist</i></p>  
                     </div>
                     </Fade>                 
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Team5 } width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p>Chandler<br/>Physical Therapist</p>  
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team5-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                        <p><b>Anthony Raines</b><br/><i>Lead Case Manager</i></p>  
                     </div>
 
                     </Fade>                          
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Team6 } width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
-                        <p>Phoebe<br/>Physical Therapist</p>  
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team6-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                        <p><b>Lydia Caldwell</b><br/><i>Lead Tech</i></p>  
                     </div>
                     </Fade>                          
 
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team7-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                        <p><b>Imelda Medina</b><br/><i>Lead Nurse</i></p>  
+                    </div>
+                    </Fade>                 
 
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team8-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                        <p><b>Shannon Hicks</b><br/><i>Lead Tech</i></p>  
+                    </div>
+
+                    </Fade>                          
+                    <Fade bottom>
+                    <div className='thumbnail'>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team9-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                        <p><b>Shawn Waddell</b><br/><i>Lead Tech</i></p>  
+                    </div>
+                    </Fade>  
 
                     </div>
                 </div>

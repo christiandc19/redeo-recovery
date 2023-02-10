@@ -5,18 +5,6 @@ import Fade from 'react-reveal/Fade';
 import './ResidenceSection.css'
 
 
-import Home1 from '../../assets/home1.png'
-import Home2 from '../../assets/home2.png'
-import Home3 from '../../assets/home3.png'
-import Home4 from '../../assets/home4.png'
-import Home5 from '../../assets/home5.png'
-import Home6 from '../../assets/home6.png'
-import Home7 from '../../assets/home7.png'
-import Home8 from '../../assets/home8.png'
-
-
-
-
 const ResidenceSection = () => {
   return (
 <>
@@ -32,50 +20,50 @@ const ResidenceSection = () => {
 <div className='flex-right container'>
                     <Fade left>
                     <div className='thumbnail'>
-                        <img src={ Home1 } width="500" height="400" alt="Home" loading="lazy"/>
+                        <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home1.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
 
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src={ Home2 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home2.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                     <Fade left>
                     <div className='thumbnail'>
-                    <img src={ Home3 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home3.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src={ Home4 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home4.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>                 
 
                     <Fade left>
                     <div className='thumbnail'>
-                    <img src={ Home5 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home5.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
 
                     </Fade>                          
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src={ Home6 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home6.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>                          
 
                     <Fade left>
                     <div className='thumbnail'>
-                    <img src={ Home7 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home7.png" width="500" height="400" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>   
 
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src={ Home8 } width="500" height="400" alt="PHome" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home8.png" width="500" height="400" alt="PHome" loading="lazy"/>
                     </div>
                     </Fade>  
 

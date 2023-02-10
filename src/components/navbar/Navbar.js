@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-// import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
 
 import './NavbarStyles.css'
@@ -43,8 +43,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    {/* <img src={logo} width="100px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/> */}
-                    <h1>RODEO RECOVERY</h1>
+                    <img src={logo} width="150px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 

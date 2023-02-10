@@ -43,12 +43,12 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@ElmoDetox.com  </p><br />
+            <p><AiOutlineMail /> info@rodeorecovery.com  </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 4642 St Elmo Dr, Los Angeles, CA, 90019</p>
+            <p><BsFillPinMapFill /> 240 S Rodeo Dr. Beverly, Hills, CA 90212</p>
     </div>
 
 </div>

@@ -23,12 +23,10 @@
 
 
 .hero .hero-container {
-    top: 25%;
-    left: 10%;
+    top: 30%;
     position: absolute;
     align-items: center;
-    text-align: left;
-    width: 100%;
+    text-align: center;
 }
 
 .hero-logo {
@@ -40,25 +38,26 @@
 
 .hero h1 {
     font-size: 5rem;
-    text-align: left;
+    text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
 .hero-container p {
-    font-size: 24px;
-    text-align: left;
-    color: white;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 196, 1);
 }
 
 .hero .hero-btn button {
     cursor: pointer;
+    margin: auto;
 }
 
 
@@ -71,11 +70,11 @@
     }
 
     .hero h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .hero p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .hero .container {
@@ -83,9 +82,17 @@
     }
     
     .hero .hero-container {
-        top: 25%;
-        left: 5%;
         width: 100%;
     }
+
+}
+
+
+@media screen and (max-width:500px) {
+
+ .hero-container img {
+    width: 340px;
+    height: 120px;
+ }
 
 }
