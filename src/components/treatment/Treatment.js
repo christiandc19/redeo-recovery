@@ -5,8 +5,8 @@ import './Treatment.css'
 
 import Service1 from '../../assets/treatment-1.jpg'
 import Service2 from '../../assets/treatment-2.jpg'
-import Service3 from '../../assets/slider1.jpg'
-import Service4 from '../../assets/slider2.jpg'
+import Service3 from '../../assets/treatment-3.jpg'
+import Service4 from '../../assets/treatment-4.jpg'
 
 
 import ContactForm from '../contact/ContactForm';
