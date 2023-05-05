@@ -14,7 +14,7 @@ const MenusSA = () => {
 
 <div className="mh-cards-header container">
       <h1>  RODEO RECOVERY TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE PROGRAMS </h1>
-      <p>At a Rodeo Recovery Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+      <p>There are numerous options for addressing concerns related to substance use and addiction and each individual will have their own set of goals when engaging in treatment. Every person’s experience is different, and what has been effective for some people may not be effective for others. If you or someone you care about is struggling with alcohol, cannabis, or other substance use, find the right help for you below.</p>
 </div>
 
 {/* Mental Health Thumbnails */}
