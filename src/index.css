@@ -81,10 +81,10 @@ button {
 
 }
 
-button:hover {
+/* button:hover {
   background-color: #530e74;
   border: 1px solid #530e74;
-}
+} */
 
 span {
   color: var(--primary-color);

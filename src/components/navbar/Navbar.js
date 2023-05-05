@@ -43,14 +43,14 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="150px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="150px" height="80px" alt="Rodeo Recovery Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/substance-abuse`}> Addiction <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                     </li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>

@@ -13,6 +13,10 @@ import ResidencePage from './routes/ResidencePage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
+import MH from './routes/MH';
+import SA from './routes/SA';
+
+
 import COCAINE from './routes/COCAINE';
 import ALCOHOL from './routes/ALCOHOL';
 import FENTANYL from './routes/FENTANYL';
@@ -45,7 +49,11 @@ import Team from './routes/Team';
 ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
+
+
       <Route exact path='/' element={<App />} />
+
+      <Route exact path='/substance-abuse' element={<SA />} />
       <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/cocaine' element={<COCAINE />} />
       <Route exact path='/fentanyl' element={<FENTANYL />} />
@@ -59,6 +67,7 @@ ReactDOM.render(
       <Route exact path='/prescriptions' element={<PRESCRIPTIONS />} />
       <Route exact path='/xanax' element={<XANAX />} />
 
+      <Route exact path='/mental-health' element={<MH />} />
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
       <Route exact path='/adhd' element={<ADHD />} />
       <Route exact path='/anger-disorder' element={<AngerDisorder />} />
