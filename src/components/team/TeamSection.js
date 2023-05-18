@@ -11,6 +11,7 @@ import Anthony from '../../assets/Anthony.jpg'
 import Lydia from '../../assets/Lydia.jpg'
 import Imelda from '../../assets/Imelda.jpg'
 import Shannon from '../../assets/Shannon.jpg'
+import Shawn from '../../assets/Shawn.jpg'
 
 
 const TeamSection = () => {
@@ -94,7 +95,9 @@ const TeamSection = () => {
                     </Fade>                          
                     <Fade bottom>
                     <div className='team-thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team9-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/>
+                    <img src={ Shawn } alt="Shawn" loading="lazy"/>
+
+                    {/* <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team9-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/> */}
                         <p><b>Shawn Waddell</b><br/><i>Lead Tech</i></p>  
                     </div>
                     </Fade>  
