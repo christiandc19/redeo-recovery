@@ -19,9 +19,10 @@ const WhatWeDo = () => {
             </h2>{" "}
             <br />
             <p>
-              At Rodeo Rehab Treatment Center, we provide Substance Abuse Addiction and Mental Health Disorder treatment in a caring, professional environment focused on meeting the needs of our patients. From our welcoming front office staff to our skilled nurses and counselors, we are here to assist you with your recovery process. Each patient’s treatment plan is shaped to address their personal recovery needs and goals. This level of flexibility is also apparent in our extended weekday dispensary hours, which enable us to provide treatment services to more individuals in our community.
+              At Rodeo Rehab Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP).
+              You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one. <br />
             </p>{" "}
-            {/* <br />
+            <br />
             <h1>Treatment</h1> <br />
             <p>
               All treatment clients will have a recovery/treatment plan
@@ -33,7 +34,7 @@ const WhatWeDo = () => {
               target and that the action step achievements will enable
               resolution of the objective. All treatment plans are reviewed by
               and signed off on by the clinical director.
-            </p> */}
+            </p>
           </div>
         </div>
       </div>
