@@ -15,7 +15,7 @@
 .wwa-header h1 {
     font-size: 1rem;
     padding: 1rem;
-    color: rgb(242, 146, 11);
+    color: #977ab3;
     letter-spacing: 3px;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -45,7 +45,7 @@
 
 .card-icon1, .card-icon3 {
     font-size: 6rem;
-    color: rgb(139, 85, 4);
+    color: rgb(214, 113, 230);
     padding: 1rem 0;
 }
 

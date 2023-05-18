@@ -33,13 +33,13 @@
     font-size: 1rem;
     padding: 1rem 0;
     letter-spacing: 5px;
-    color: #E17141;
+    color: rgb(214, 113, 230);
 }
 
 .homeSection2-content h2 {
     font-size: 3rem;
     padding: 0 0 1rem 0;
-    color: rgb(0, 0, 0);
+    color: #977ab3;
 }
 
 .homeSection2-content p {
@@ -57,7 +57,7 @@
 
 .homeSection2-icon {
     font-size: 1.2rem;
-    color: #E17141;
+    color: rgb(214, 113, 230);
 }
 
 

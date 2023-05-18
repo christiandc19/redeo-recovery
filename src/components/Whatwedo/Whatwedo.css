@@ -1,70 +1,73 @@
-.Whatwedo {
-    width: 100%;
-    position: relative;
-    background: rgba(255, 255, 255, 0);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.wrapper1 {
+    padding: 5rem 0 5rem 0;
+    background: #ffffff;
 }
 
-.Whatwedo .content {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-}
-
-.Whatwedo .content p {
-    margin: 1rem 0;
-}
-
-.Whatwedo p {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-
-.Whatwedo h1 {
-    padding: 2rem 0;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
-}
-
-.flex-right {
+.wrapper-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.wrapper-content-left {
+    width: 50%;
     text-align: center;
-    margin-top: 1rem;
 }
 
+.wrapper-content-left img {
+    width: 80%;
+}
 
-.Whatwedo button {
+.wrapper-content-right {
+    width: 600px;
     margin: auto;
+    padding: 0 2rem;
 }
 
 
-@media screen and (max-width: 940px) {
-    .Whatwedo .content {
+.wrapper-content-right h2 {
+    font-size: 3rem;
+    color: #5a5c82;
+}
+
+.wrapper-content-right h1 {
+    text-transform: uppercase;
+    color: #977ab3;
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+.wrapper-content-right p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width:1250px)  {
+    .wrapper-content-right {
         width: 100%;
+        padding: 1rem 2rem;
     }
 
-    .Whatwedo h1 {
-        font-size: 25px;
+    .wrapper-content-right h1, h2, p {
+        text-align: center;
     }
 
-    .Whatwedo p {
-        font-size: 15px;
+    .wrapper-content-right h2 {
+        font-size: 2rem;
     }
 
-    .thumbnail img {
-        width: 250px;
-        height: 150px;
-    }
 }
 
-
-
-
-
+@media screen and (max-width:940px) {
+    .wrapper-content-left {
+        width: 100vw;
+    }
+    .wrapper-content-left img {
+        padding: 2rem;
+    }
+}
 

@@ -1,12 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 import './MenusSA.css'
 
-import Contact2 from '../contact/Contact2'
-import SubCardBg from '../../assets/sub-card-bg-min.jpg'
 
+
+import { AiOutlineArrowRight } from 'react-icons/ai';
+
+import Icon1 from "../../assets/top-flex-icon1.png";
+import Icon2 from "../../assets/top-flex-icon2.png";
+import Icon3 from "../../assets/top-flex-icon3.png";
+import Icon4 from "../../assets/top-flex-icon4.png";
+import Icon5 from "../../assets/top-flex-icon5.png";
+import Icon6 from "../../assets/top-flex-icon6.png";
+import Icon7 from "../../assets/top-flex-icon7.png";
+import Icon8 from "../../assets/top-flex-icon8.png";
+import Icon9 from "../../assets/top-flex-icon9.png";
+import Icon10 from "../../assets/top-flex-icon10.png";
+import Icon11 from "../../assets/top-flex-icon11.png";
+import Icon12 from "../../assets/top-flex-icon12.png";
 
 const MenusSA = () => {
   return (
@@ -19,218 +31,204 @@ const MenusSA = () => {
 
 {/* Mental Health Thumbnails */}
 
-          
-<div class="sa-thumbnail-wrap container">
 
- <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>ALCOHOLISM</h1>
-      </Fade>
+<div className="top-flex">
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon1} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Substance Abuse Treatment</h1>
+      <h2>ALCOHOLISM</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/alcohol">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>COCAINE</h1>
-      </Fade>
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon2} alt="Substance Use" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>COCAINE</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/cocaine">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>FENTANYL</h1>
-      </Fade>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/fentanyl">
-            <button>Learn More</button>
-        </Link>
-      </LinkRoll>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon3} alt="Substance Use" loading="lazy" />
     </div>
-  </div>
-
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>HEROIN</h1>
-      </Fade>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>HEROIN</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/heroin">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>KRATOM</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon4} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>FENTANYL</h2>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/fentanyl">
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
+        </Link>
+      </LinkRoll>
+    </div>
+</div>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon5} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2> KRATOM</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/kratom">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>MDMA</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon6} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>MDMA</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mdma">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>METH</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon7} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>METH</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/meth">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>OPIATE</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon8} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>OPIATE</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/opiate">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>OPIOID</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon9} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>OPIOID</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/opioid">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>OXYCODONE</h1>
-      </Fade>
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon10} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>OXYCODONE</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/oxycodone">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>PRESCRIPTION</h1>
-      </Fade>
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon11} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>PRESCRIPTIONS</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/prescription">
-            <button>Learn More</button>
+        <Link to="/prescriptions">
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="sa-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>SUBSTANCE ABUSE TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>XANAX</h1>
-      </Fade>
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Icon12} alt="Job Assistance" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+    <h1>Substance Abuse Treatment</h1>
+      <h2>XANAX</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/xanax">
-            <button>Learn More</button>
+        <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
+
+
+
 
 </div>
 
 
 
-<Contact2 />
+
+
 
     </>
 

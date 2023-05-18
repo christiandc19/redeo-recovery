@@ -1,11 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 import './Menus.css'
 
-import Contact2 from '../contact/Contact2'
-import SubCardBg from '../../assets/sub-card-bg-min.jpg'
+import { AiOutlineArrowRight } from 'react-icons/ai';
+
+import Depression from "../../assets/mental-health-depression.png";
+import Anxiety from "../../assets/mental-health-anxiety.png";
+import Panic from "../../assets/mental-health-panic.png";
+import Stress from "../../assets/top-flex-icon8.png";
+import Anger from "../../assets/top-flex-icon9.png";
+import ADHD from "../../assets/top-flex-icon10.png";
+import PTSD from "../../assets/mental-health-ptsd.png";
+import Bipolar from "../../assets/mental-health-bipolar.png";
+import Schizoaffective from "../../assets/mental-health-schizoaffective.png";
+import Schizophrenia from "../../assets/mental-health-schizophrenia.png";
+
+
 
 
 const Menus = () => {
@@ -22,190 +33,176 @@ const Menus = () => {
 
 
 
+
 {/* Mental Health Thumbnails */}
 
 
 
-<div class="mh-thumbnail-wrap container">
+<div className="top-flex">
 
- <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>Depression</h1>
-      </Fade>
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Depression} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>DEPRESSION</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/depression">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>ANXIETY</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Anxiety} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>ANXIETY</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/anxiety">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>PANIC DISORDER</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Panic} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>PANIC DISORDER</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/panic-disorder">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>STRESS DISORDER</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Stress} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>STRESS DISORDER</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/acute-stress-disorder">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>ANGER DISORDER</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Anger} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>ANGER DISORDER</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/anger-disorder">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>ADHD</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={ADHD} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>ADHD DISORDER</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/adhd">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>PTSD</h1>
-      </Fade>
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={PTSD} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>PTSD DISORDER</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/ptsd">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>BIPOLAR</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Bipolar} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>BIPOLAR DISORDER</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/bipolar-disorder">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>SCHIZOAFFECTIVE</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Schizoaffective} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>SCHIZOAFFECTIVE</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/schizoaffective">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
-  <div class="mh-thumbnails"> 
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
-      <Fade left>
-      <h5>MENTAL HEALTH TREATMENT​</h5>
-      </Fade>
-      <Fade right>
-      <h1>SCHIZOPHRENIA</h1>
-      </Fade>
+
+<div className="top-flex-item">
+    <div className="top-flex-icon">
+    <img src={Schizophrenia} alt="Mental Health" loading="lazy" />
+    </div>
+    <div className="top-flex-text">
+      <h1>Mental Health Treatment</h1>
+      <h2>SCHIZOPHRENIA</h2>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/schizophrenia">
-            <button>Learn More</button>
+            <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
-  </div>
+</div>
 
 
- </div>
- <div>
 </div>
 
 
 
-<Contact2 />
 
     </>
 
