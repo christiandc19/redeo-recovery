@@ -2,6 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
+import DHCS from '../../assets/DHCS-logo.png'
+
 import { FiFacebook,  FiInstagram   } from 'react-icons/fi'
 import './FooterStyles.css'
 
@@ -42,7 +44,7 @@ const Footer = () => {
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Testimonials</p></Link>
+                        <Link to='/testimonials'><p>Testimonials</p></Link>
                         </LinkRoll>
 
                     </div>
@@ -68,16 +70,29 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-                    <form>
+                    {/* <form>
                         <h3>Follow us</h3>
-                        {/* <input type="email" placeholder='Enter your email' /> */}
-                        {/* <FiMail className='mail-icon' /> */}
                         <div className="social-group">
                             <FiInstagram className='social-icon' />
                             <FiFacebook className='social-icon' />
                         </div>
-                    </form>
+                    </form> */}
+
+                    <div className='license'>
+                        <h3>Licensed by the State Department of Health Care Services</h3>
+                        <p>License Number: 191057BP <br/>
+                        Expiration Date:  6 / 30 / 2023 </p><br/>
+
+                        <a href='https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities' target="_blank" rel="noreferrer">( View License & Certification Information here ).</a>
+                        <div>
+                        <img src={DHCS} width="300px" height="150px" alt="Rodeo Recovery Rehab Logo" loading="lazy"/>
+                        </div>
+                    </div>
+
+
                 </div>
+
+
                 <p className='copyright'><p>&copy; 2023 Rodeo Recovery. All rights reserved</p></p>
 
 
