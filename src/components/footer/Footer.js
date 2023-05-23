@@ -4,7 +4,6 @@ import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
 import DHCS from '../../assets/DHCS-logo.png'
 
-import { FiFacebook,  FiInstagram   } from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -70,13 +69,6 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-                    {/* <form>
-                        <h3>Follow us</h3>
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                        </div>
-                    </form> */}
 
                     <div className='license'>
                         <h3>Licensed by the State Department of Health Care Services</h3>
