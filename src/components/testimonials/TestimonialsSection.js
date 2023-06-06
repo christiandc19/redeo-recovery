@@ -12,13 +12,13 @@ const TestimonialsSection = () => {
     
 
         <div className='testimonial-wrap'>
-                <Fade right>
+                <Fade left>
                     <div className="testimonial-right">
                         <img src={Testimonials1} alt="Our Client" loading="lazy" />
                     </div>
                 </Fade>
 
-                <Fade left>
+                <Fade right>
                     <div className="testimonial-left">
                         <h1>HEAR WHAT OUR CLIENTS SAY</h1>
                         <br/>

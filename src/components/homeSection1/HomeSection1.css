@@ -45,7 +45,7 @@
 
 .card-icon1, .card-icon3 {
     font-size: 6rem;
-    color: rgb(214, 113, 230);
+    color: var(--primary-color);
     padding: 1rem 0;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .card1 h5 {
-    color: rgb(184, 88, 206);
+    color: var(--primary-color);
     letter-spacing: 2px;
     cursor: pointer;
 }
@@ -98,7 +98,7 @@
     height: 450px;
     position: relative;
     justify-content: center;
-    background-color: rgba(89, 8, 102, 0.98);
+    background-color: var(--primary-color);
   }
   
   .card2:before {
@@ -158,7 +158,7 @@
 }
 
 .card3 h5 {
-    color: rgb(139, 85, 4);
+    color: var(--primary-color);
     letter-spacing: 2px;
 }
 

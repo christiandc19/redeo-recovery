@@ -10,7 +10,7 @@ const Whoweare = () => {
 <>
 
 <div className='homeSection2 '>
-        <div className='homeSection2-content'>
+        <div className='homeSection2-content container'>
             <div className='homeSection2-left'>
 
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaPills } from 'react-icons/fa';
 import { MdWorkOutline } from 'react-icons/md';
 import { BiBrain } from 'react-icons/bi';
-
+import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
@@ -19,10 +19,10 @@ const HomeSection1 = () => {
     <p>Top level physiotherapy professional, evidenced based treatment. We diagnose the cause and provide you with the best possible treatment.</p>
     </div>
 
-
 <div className='wwa-cards'>
     <div className='wwa-cards-contents'>
         <div className='card1 card'>
+        <Fade left>
             <div className='card-content'>
                 <FaPills className='card-icon1'/>
                 <h1>Substance Abuse Programs</h1>
@@ -33,9 +33,13 @@ const HomeSection1 = () => {
                 </Link>
                 </LinkRoll>
             </div>
+        </Fade>
         </div>
 
+    
+
         <div className='card2 card'>
+        <Fade top>
             <div className='card-content'>
                 <MdWorkOutline className='card-icon2'/>
                 <h1>Jobs Program</h1>
@@ -45,11 +49,13 @@ const HomeSection1 = () => {
                 <h5>LEARN MORE</h5>
                 </Link>
                 </LinkRoll>
-            </div>        
+            </div>    
+        </Fade>    
         </div>
 
 
         <div className='card3 card'>
+        <Fade right>
             <div className='card-content'>
                 <BiBrain className='card-icon3'/>
                 <h1>Mental Health Programs</h1>
@@ -60,7 +66,8 @@ const HomeSection1 = () => {
                 <h5>LEARN MORE</h5>
                 </Link>
                 </LinkRoll>
-            </div>      
+            </div> 
+        </Fade>     
         </div>
     </div>
 </div>

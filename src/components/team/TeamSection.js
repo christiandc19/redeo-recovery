@@ -24,7 +24,7 @@ const TeamSection = () => {
             <div>
                 <div className="content">
 
-                    <div className='flex-right'>
+                    <div className='team-right'>
                     <Fade top>
                     <div className='team-thumbnail'>
                         <img src={ Ashley } alt="Ashley" loading="lazy"/>

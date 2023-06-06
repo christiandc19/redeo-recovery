@@ -20,50 +20,50 @@ const ResidenceSection = () => {
 <div className='flex-right container'>
                     <Fade left>
                     <div className='thumbnail'>
-                        <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home1.png" width="500" height="400" alt="Home" loading="lazy"/>
+                        <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home1.png" alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
 
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home2.png" width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home2.png"  alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                     <Fade left>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home3.png" width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home3.png"  alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home4.png" width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home4.png"  alt="Home" loading="lazy"/>
                     </div>
                     </Fade>                 
 
                     <Fade left>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home5.png" width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home5.png"  alt="Home" loading="lazy"/>
                     </div>
 
                     </Fade>                          
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home6.png" width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home6.png"  alt="Home" loading="lazy"/>
                     </div>
                     </Fade>                          
 
                     <Fade left>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home7.png" width="500" height="400" alt="Home" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home7.png"  alt="Home" loading="lazy"/>
                     </div>
                     </Fade>   
 
                     <Fade right>
                     <div className='thumbnail'>
-                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home8.png" width="500" height="400" alt="PHome" loading="lazy"/>
+                    <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/home8.png"  alt="PHome" loading="lazy"/>
                     </div>
                     </Fade>  
 
