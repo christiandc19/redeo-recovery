@@ -60,10 +60,16 @@
 }
 
 .footer .col-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
     width: 100%;
+}
+
+.col {
+    width: 200px;
 }
 
 .footer h3 {
@@ -155,7 +161,24 @@
     .footer h1, .footer h2, .footer h3 {
         text-align: left;
     }
-    
+
+    .license {
+        width: 100%;
+        text-align: center;
+    }
+
+.col h3, .col p {
+    text-align: center;
+}
+
+    .license h3 {
+        text-align: center;
+    }
+
+    .license p {
+        text-align: center;
+    }
+
 }
 
 
