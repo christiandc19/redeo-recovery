@@ -15,7 +15,7 @@ const Whoweare = () => {
 
 
             <h1>ABOUT RODEO RECOVERY</h1>
-                <h2>Here to Help You Find a Path Forward.</h2>
+                <h2>We're Here to Help You Find a Path Forward.</h2>
                 <p>At Rodeo Recovery, we provide safe and comfortable medical detox services for those struggling with addiction.</p> <br /> <br />
                              
                 <div className='checklist'>
