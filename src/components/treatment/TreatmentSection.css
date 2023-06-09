@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .treatment-section-overview {
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .treatment-section-overview p {
@@ -21,130 +21,255 @@
     color: rgb(65, 66, 66);
 }
 
-.treatment-plan {
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
-    padding: 3rem;
-}
-
-
-/* SECTION 2.1 */
-
-.treatment-section-tile {
+.overview-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+
+.overview-left {
+    width: 400px;
+    margin: auto;
+}
+
+.overview-left img {
     width: 100%;
+    border-radius: 1rem;
 }
 
-.section3 {
-    padding: 3rem;
+.overview-right {
+    width: 65%;
+    margin: auto;
 }
 
-.tile-header h1{
-    padding: 1rem 1rem;
+.overview-right p {
+    text-align: left;
+}
+
+
+
+/* Treatment Section 2 */
+
+
+.treatment-section2 {
+    background-color: var(--primary-color);
+    padding: 3rem 0;
+}
+
+.treatment-section2-header {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: rgb(65, 66, 66);
 }
 
-.treatment-plan .tile-header p {
+.treatment-section2-header h1 {
     padding: 1rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    color: rgb(65, 66, 66);}
-
-.treatment-section-tile .tile-image {
-    width: 50%;
-    padding: 1rem;
+    color: rgb(223, 213, 213);
 }
 
-.treatment-section-tile .tile-image img {
+.treatment-section2-header p {
+    color: rgb(223, 213, 213);
+}
+
+.treatment-section2-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.treatment-section2-left {
+    width: 60%;
+    margin: auto;
+    color: rgb(223, 213, 213);
+}
+
+.treatment-section2-right {
+    width: 500px;
+}
+
+.treatment-section2-left p {
+    text-align: left;
+}
+
+.treatment-section2-right img {
     width: 100%;
-    border-radius: 2rem;
-    padding: 1rem;
+    border-radius: 1rem;
 }
 
-.treatment-section-tile .tile-description {
+
+
+
+
+/* Treatment Section 3 */
+
+.treatment-section3 {
+    padding: 3rem 0;
+}
+
+.treatment-section3-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem 1rem;
+}
+
+.treatment-section3-right {
+    width: 60%;
+    margin: auto;
+    color: rgb(19, 18, 18);
+}
+
+.treatment-section3-right p {
+    text-align: left;
+}
+
+.treatment-section3-left {
+    width: 500px;
+    padding: 1rem 0;
+}
+
+.treatment-section3-left img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+/* Treatment Section 4 */
+
+.treatment-section4 {
+    background-color: var(--primary-color);
+    padding: 3rem 0;
+}
+
+.treatment-section4-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem 1rem;
+}
+
+.treatment-section4-left {
     width: 50%;
     margin: auto;
-    padding: 1rem;
+    color: rgb(235, 225, 225);
 }
 
-.treatment-section-tile .tile-description p {
+.treatment-section4-right {
+    width: 500px;
+}
+
+.treatment-section4-right img {
     width: 100%;
-    text-align: justify;
-    padding: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.treatment-section-tile .tile-description h1 {
-    font-family: 'Poppins', sans-serif;
-    color: black;
-}
-
-.wrap-reverse {
-    flex-wrap: wrap-reverse;
-}
-
-.treatment-section-activities  {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding: 3rem 0;
-gap: 2rem;
-background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
-}
-
-.treatment-section-activities .treatment-left {
-    width: 600px;
-}
-
-.treatment-section-activities .treatment-right {
-    width: 600px;
-}
-
-.treatment-section-activities .treatment-right img{
-    width: 100%;
-}
-
-.treatment-section-activities p {
-padding: 1rem;
-text-align: justify;
-}
-
-.treatment-section-activities h1 {
-    text-align: center;
+    border-radius: 1rem;
 }
 
 
-.treatment-section {
+
+/* Treatment Section 5 */
+
+.treatment-section5 {
+    padding: 3rem 0;
+}
+
+.treatment-section5-header {
+    padding: 1rem ;
+}
+
+.treatment-section5-icon h3 {
     padding: 1rem;
 }
 
-.treatment-section h1 {
-    color: rgb(65, 66, 66);
-    padding: 2rem 0;
-}
 
-.treatment-section p {
-    font-size: 16px;
+.treatment-section5-icon p {
+    padding: 0 1rem;
     text-align: left;
+}
 
-}  
+
+
+
+
+
+
+
+
+
 
 
 @media  screen and (max-width:940px) {
-    .treatment-section-tile .tile-description {
-        width: 100%;
-        padding: 1rem 0;
 
+    .overview-flex {
+        flex-wrap: wrap-reverse;
     }
     
-    .treatment-section-tile .tile-image {
+    .overview-right {
         width: 100%;
+    }
+
+    .overview-left {
+        width: 100%;
+    }
+
+
+    .treatment-section2-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .treatment-section2-left {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .treatment-section2-left p{
+        text-align: justify;
         padding: 1rem 0;
     }
+
+    .treatment-section2-right {
+        width: 100%;
+    }
+
+
+    .treatment-section3-flex {
+        flex-wrap: wrap-reverse;
+    }
+    
+    .treatment-section3-right {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .treatment-section3-left {
+        width: 100%;
+    }
+
+
+    .treatment-section4-flex {
+        flex-wrap: wrap;
+    }
+    
+    .treatment-section4-right {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .treatment-section4-left {
+        width: 100%;
+    }
+
+    .treatment-section4-left li {
+        text-align: left;
+    }
+
+
+    .treatment-section5-icon p {
+        text-align: left;
+    }
+
+    .treatment-section5-header h1 {
+        text-align: center;
+    }
+
 
 }

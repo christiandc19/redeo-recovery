@@ -21,7 +21,7 @@ const WhatWeDo = () => {
 
           <Fade left>
             <h2>
-              <i>We care about your mental health</i>
+              <i>We care about your mental health.</i>
             </h2>
           </Fade>
 
