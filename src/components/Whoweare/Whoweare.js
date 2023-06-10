@@ -3,6 +3,7 @@ import './Whoweare.css'
 
 import { BsCheckLg } from 'react-icons/bs';
 import HomeSection2Image from '../../assets/slider1.jpg'
+import leaf2 from "../../assets/leaf.png";
 
 
 const Whoweare = () => {
@@ -15,7 +16,7 @@ const Whoweare = () => {
 
 
             <h1>ABOUT RODEO RECOVERY</h1>
-                <h2>We're Here to Help You Find a Path Forward.</h2>
+                <h2>We're here to help you find a path to <span>recovery</span></h2>
                 <p>At Rodeo Recovery, we provide safe and comfortable medical detox services for those struggling with addiction.</p> <br /> <br />
                              
                 <div className='checklist'>
@@ -45,12 +46,14 @@ const Whoweare = () => {
 
 
             <div className='homeSection2-right'>
-                             
-
+                            
                                 <img src={HomeSection2Image} loading="lazy" alt='psychologist'/>
 
 
-                   
+                                <div className="leaf2">
+            <img src={leaf2} alt="leaf" loading="lazy" />
+            </div>
+
             </div>
 
         </div>

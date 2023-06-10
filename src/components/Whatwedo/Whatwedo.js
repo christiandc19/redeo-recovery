@@ -3,14 +3,20 @@ import "./Whatwedo.css";
 import Fade from 'react-reveal/Fade';
 
 import wrapper1 from "../../assets/wrapper1-min.jpg";
+import leaf from "../../assets/leaf.png";
 
 const WhatWeDo = () => {
   return (
     <>
       <div className="wrapper1 ">
         <div className="wrapper-content container">
+
           <div className="wrapper-content-left">
-            <img src={wrapper1} alt="nurse" loading="lazy" />
+          <img src={wrapper1} alt="nurse" loading="lazy"/>
+
+            <div className="leaf">
+            <img src={leaf} alt="leaf" loading="lazy" className="leaf"/>
+            </div>
           </div>
         
 

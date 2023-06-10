@@ -53,7 +53,7 @@
         padding: 1rem 2rem;
     }
 
-    .jobs-right h1, h2, p {
+    .jobs-right h1, .jobs-right h2, .jobs-right p {
         text-align: center;
     }
 

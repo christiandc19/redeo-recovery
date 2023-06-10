@@ -49,7 +49,7 @@ const TeamSection = () => {
                     <div className='team-thumbnail'>
                     <img src={ Honey } alt="Honey" loading="lazy"/>
                     {/* <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team3-min.jpg" width="300" height="250" alt="Bluecross  Logo" loading="lazy"/> */}
-                    <p><b>Honey Phipps</b><br/><i>Executive Director</i></p>
+                    <p><b>Honey Philipps</b><br/><i>Executive Director</i></p>
                     </div>
                     </Fade>
 
