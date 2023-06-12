@@ -41,7 +41,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
       <h1>Substance Abuse Treatment</h1>
       <h2>ALCOHOLISM</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/alcohol">
             <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -56,7 +56,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>COCAINE</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/cocaine">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -72,7 +72,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>HEROIN</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/heroin">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -88,7 +88,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>FENTANYL</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/fentanyl">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -103,7 +103,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2> KRATOM</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/kratom">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -119,7 +119,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>MDMA</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/mdma">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -135,7 +135,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>METH</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/meth">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -151,7 +151,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>OPIATE</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/opiate">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -167,7 +167,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>OPIOID</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/opioid">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -182,7 +182,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>OXYCODONE</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/oxycodone">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -197,7 +197,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>PRESCRIPTIONS</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/prescriptions">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -212,7 +212,7 @@ const MenusSA = () => {
     <div className="top-flex-text">
     <h1>Substance Abuse Treatment</h1>
       <h2>XANAX</h2>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/xanax">
         <p>Learn More <span><AiOutlineArrowRight /></span></p>
         </Link>
