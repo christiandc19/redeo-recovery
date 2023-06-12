@@ -6,6 +6,7 @@ import ContactForm from '../contact/ContactForm';
 import Team from '../../components/team/TeamSection'
 import HomeSection1 from '../homeSection1/HomeSection1';
 import HomeMission from '../mission/HomeMission';
+import TherapyMH from '../theraphyMH/TheraphyMH';
 
 
 
@@ -14,6 +15,7 @@ const home = () => {
     <>
     <WeDo />
     <HomeSection1 />
+    <TherapyMH />
     <Whoweare />
     <Team />
     <HomeMission />

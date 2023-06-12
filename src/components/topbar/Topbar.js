@@ -8,7 +8,7 @@ import { AiOutlinePhone } from 'react-icons/ai';
 
 const Topbar = () => {
   return (
-    <div className='topbar' name='top'>
+    <div className='topbar' name='scrollToTop'>
             <div className='topbar-content container'>
                 <div className='address bar-box1'>
                     <p><span><MdLocationPin />&nbsp;</span>240 S Rodeo Dr., Beverly Hills, CA 90212</p>
