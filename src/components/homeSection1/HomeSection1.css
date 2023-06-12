@@ -30,6 +30,23 @@
 
 /* cards */
 
+.card:hover {
+    box-shadow: 2px 13px 18px -14px rgba(23,22,23,1);
+}
+
+.card h5 {
+    border: 1px solid #5a5c825d;
+    width: max-content;
+    margin: auto;
+    padding: .6rem 2rem;
+    border-radius: 5px;
+    /* background-color: #5a5c825d; */
+}
+
+.card2 h5 {
+    border: 1px solid #adadbe81;
+}
+
 .wwa-cards-contents {
     display: flex;
     justify-content: center;
