@@ -3,22 +3,7 @@ import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
 import './MenusSA.css'
 
-
-
 import { AiOutlineArrowRight } from 'react-icons/ai';
-
-import Icon1 from "../../assets/top-flex-icon1.png";
-import Icon2 from "../../assets/top-flex-icon2.png";
-import Icon3 from "../../assets/top-flex-icon3.png";
-import Icon4 from "../../assets/top-flex-icon4.png";
-import Icon5 from "../../assets/top-flex-icon5.png";
-import Icon6 from "../../assets/top-flex-icon6.png";
-import Icon7 from "../../assets/top-flex-icon7.png";
-import Icon8 from "../../assets/top-flex-icon8.png";
-import Icon9 from "../../assets/top-flex-icon9.png";
-import Icon10 from "../../assets/top-flex-icon10.png";
-import Icon11 from "../../assets/top-flex-icon11.png";
-import Icon12 from "../../assets/top-flex-icon12.png";
 
 const MenusSA = () => {
   return (
@@ -34,190 +19,220 @@ const MenusSA = () => {
 
 <div className="top-flex">
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon1} alt="Mental Health" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-      <h1>Substance Abuse Treatment</h1>
-      <h2>ALCOHOLISM</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/alcohol">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
-</div>
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon2} alt="Substance Use" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>COCAINE</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/cocaine">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+<div class="main"> 
+                <div class="view view-fourth">
+                    <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"  alt="Alcoholism" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/alcohol">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>ALCOHOLISM</h2>
+                </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon3} alt="Substance Use" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>HEROIN</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/heroin">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"  alt="Cocaine" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/cocaine">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>COCAINE</h2>
+                </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon4} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>FENTANYL</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/fentanyl">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
-</div>
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"  alt="Heroin" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/heroin">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon5} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2> KRATOM</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/kratom">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+                <div className='title'>
+                    <h2>HEROIN</h2>
+                </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon6} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>MDMA</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/mdma">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg"  alt="Fentanyl" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/fentanyl">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>FENTANYL</h2>
+                </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon7} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>METH</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/meth">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg"  alt="Kratom" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/kratom">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>KRATOM</h2>
+                </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon8} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>OPIATE</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/opiate">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opiate.jpg"  alt="Opiate" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/opiate">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>OPIATE</h2>
+                </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon9} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>OPIOID</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/opioid">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg"  alt="MDMA" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/mdma">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>MDMA</h2>
+                </div>
 </div>
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon10} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>OXYCODONE</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/oxycodone">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg"  alt="Meth" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/meth">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>METH</h2>
+                </div>
 </div>
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon11} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>PRESCRIPTIONS</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/prescriptions">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opioid.jpg"  alt="Opioid" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/opioid">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>OPIOID</h2>
+                </div>
 </div>
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Icon12} alt="Job Assistance" loading="lazy" />
-    </div>
-    <div className="top-flex-text">
-    <h1>Substance Abuse Treatment</h1>
-      <h2>XANAX</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
-        <Link to="/xanax">
-        <p>Learn More <span><AiOutlineArrowRight /></span></p>
-        </Link>
-      </LinkRoll>
-    </div>
+
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg"  alt="Oxycodone" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/oxycodone">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>OXYCODONE</h2>
+                </div>
+</div>
+
+
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/prescriptions.jpg"  alt="Prescriptions" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/prescriptions">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>PRESCRIPTIONS</h2>
+                </div>
+</div>
+
+
+<div class="main"> 
+                <div class="view view-fourth">
+                <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/xanax.jpg"  alt="Xanax" loading="lazy"/>
+                    <div class="mask">
+                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                        <Link to="/xanax">
+                            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+                        </Link>
+                    </LinkRoll>
+                    </div>
+                </div>
+
+                <div className='title'>
+                    <h2>XANAX</h2>
+                </div>
 </div>
 
 
