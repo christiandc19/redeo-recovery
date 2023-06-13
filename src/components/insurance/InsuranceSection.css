@@ -45,11 +45,18 @@
 }
 
 .group {
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    margin-bottom: -2rem;
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
 }
+
+.group img {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+
+
 
 @media  screen and (max-width:940px) {
     .InsuranceSection-container h1 {
@@ -60,10 +67,6 @@
 
     .InsuranceSection-container p {
         font-size: 14px;
-    }
-
-    .group img {
-        width: 350px;
     }
 
 

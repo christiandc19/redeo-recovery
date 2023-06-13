@@ -5,16 +5,7 @@ import './Menus.css'
 
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
-import Depression from "../../assets/mental-health-depression.png";
-import Anxiety from "../../assets/mental-health-anxiety.png";
-import Panic from "../../assets/mental-health-panic.png";
-import Stress from "../../assets/top-flex-icon8.png";
-import Anger from "../../assets/top-flex-icon9.png";
-import ADHD from "../../assets/top-flex-icon10.png";
-import PTSD from "../../assets/mental-health-ptsd.png";
-import Bipolar from "../../assets/mental-health-bipolar.png";
-import Schizoaffective from "../../assets/mental-health-schizoaffective.png";
-import Schizophrenia from "../../assets/mental-health-schizophrenia.png";
+
 
 
 
@@ -40,168 +31,166 @@ const Menus = () => {
 
 <div className="top-flex">
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Depression} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"  alt="Alcoholism" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>DEPRESSION</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/depression">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Anxiety} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"  alt="anxiety" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>ANXIETY</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/anxiety">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Panic} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"  alt="Panic Disorder" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>PANIC DISORDER</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/panic-disorder">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Stress} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg"  alt="Stress Disorder" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>STRESS DISORDER</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/acute-stress-disorder">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Anger} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg"  alt="Anger Disorder" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>ANGER DISORDER</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/anger-disorder">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={ADHD} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opiate.jpg"  alt="ADHD" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>ADHD DISORDER</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/adhd">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={PTSD} alt="Mental Health" loading="lazy" />
+
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg"  alt="PTSD" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>PTSD DISORDER</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/ptsd">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Bipolar} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opioid.jpg"  alt="Bipolar Disorder" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>BIPOLAR DISORDER</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/bipolar-disorder">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Schizoaffective} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg"  alt="Schizoaffective" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>SCHIZOAFFECTIVE</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/schizoaffective">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
 
-<div className="top-flex-item">
-    <div className="top-flex-icon">
-    <img src={Schizophrenia} alt="Mental Health" loading="lazy" />
+<div className="top-flexItem">
+    <div className="top-flex-image">
+      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/prescriptions.jpg"  alt="Schizophrenia" loading="lazy"/>
     </div>
-    <div className="top-flex-text">
-      <h1>Mental Health Treatment</h1>
+
+    <div className="top-flex-caption">
       <h2>SCHIZOPHRENIA</h2>
       <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
         <Link to="/schizophrenia">
-            <p>Learn More <span><AiOutlineArrowRight /></span></p>
+            <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
       </LinkRoll>
     </div>
 </div>
 
-
 </div>
-
-
 
 
     </>

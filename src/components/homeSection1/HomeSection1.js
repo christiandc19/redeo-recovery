@@ -29,7 +29,9 @@ const HomeSection1 = () => {
                 <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
                 <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
                 <Link to="/substance-abuse">
+                <div className='card3-btn'>
                 <h5>LEARN MORE</h5>
+                </div>
                 </Link>
                 </LinkRoll>
             </div>

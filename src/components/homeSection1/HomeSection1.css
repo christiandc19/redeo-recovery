@@ -54,7 +54,6 @@
 
 .card-content {
     top: 10%;
-    position: absolute;
     text-align: center;
     width: 100%;
 }
@@ -76,17 +75,17 @@
 .card1 {
     margin-top: 1.5rem;
     width: 450px;
-    height: 400px;
+    height: auto;
     position: relative;
     justify-content: center;
     background-color: rgba(241, 237, 232, 0.970);
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 1rem;
   }
   
   .card1:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-icon2.png') no-repeat center top/cover;
+    background: url('../../assets/sa-icon2.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -112,7 +111,7 @@
 
 .card2 {
     width: 450px;
-    height: 450px;
+    height: auto;
     position: relative;
     justify-content: center;
     background-color: var(--primary-color);
@@ -122,7 +121,7 @@
   .card2:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-icon2.png') no-repeat center top/cover;
+    background: url('../../assets/sa-icon2.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -150,20 +149,21 @@
 .card3 {
     margin-top: 1.5rem;
     width: 450px;
-    height: 400px;
+    height: auto;
     position: relative;
     justify-content: center;
     background-color: rgba(241, 237, 232, 0.970);
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 1rem;
   }
   
   .card3:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-icon2.png') no-repeat center top/cover;
+    background: url('../../assets/sa-icon2.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
+
   }
 
 .card3 h1 {
@@ -176,6 +176,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.card3-btn {
+    padding: 2rem 0;
+}
+
 .card3 h5 {
     color: var(--primary-color);
     letter-spacing: 2px;
@@ -184,6 +188,8 @@
 .card h5:hover {
     color: rgb(0, 0, 0);
 }
+
+
 
 
 @media screen and (max-width:940px) {
