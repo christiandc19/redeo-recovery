@@ -47,10 +47,13 @@
 }
 
 .footer .top .footer-icon {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-right: 1rem;
     color: white;
     cursor: pointer;
+    padding: .8rem;
+    border: 1px solid white;
+    border-radius: 10rem;
 }
 
 
