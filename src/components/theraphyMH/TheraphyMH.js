@@ -1,9 +1,9 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import "./TherapyMH.css";
-import { Link } from "react-router-dom";
 import { BiBrain } from "react-icons/bi";
 import { BiSad } from "react-icons/bi";
 import { FaTheaterMasks } from "react-icons/fa";

@@ -7,6 +7,7 @@ import Team from '../../components/team/TeamSection'
 import HomeSection1 from '../homeSection1/HomeSection1';
 import HomeMission from '../mission/HomeMission';
 import TherapyMH from '../theraphyMH/TheraphyMH';
+import TherapySA from '../therapySA/TherapySA';
 
 
 
@@ -16,6 +17,7 @@ const home = () => {
     <WeDo />
     <HomeSection1 />
     <TherapyMH />
+    <TherapySA />
     <Whoweare />
     <Team />
     <HomeMission />

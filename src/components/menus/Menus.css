@@ -73,34 +73,6 @@
 }
 
 
-.top-flex-text h1 {
-  font-size: 1rem;
-  color: #977ab3;
-  padding: 1rem 0;
-  text-align: left;
-}
-
-.top-flex-text h2 {
-  font-size: 1.2rem;
-  text-align: left;
-}
-
-.top-flex-text p {
-  font-size: 14px;
-  color: #131dc9;
-  text-align: left;
-  padding: 1.5rem 0;
-}
-
-.top-flex-text span {
-  position: absolute;
-  font-size: 20px;
-  padding-left: .5rem;
-  color: #131dc9;
-
-  
-}
-
 
 @media (max-width: 940px) {
   .top-flex {
