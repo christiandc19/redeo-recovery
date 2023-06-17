@@ -42,7 +42,7 @@ const Navbar = () => {
     return (
         <>
         <Topbar />
-        <div className='navbar' name='toTop'>
+        <div className='navbar' >
             <div className="navbar-container">
                 
                  <div className="navbar-logo">

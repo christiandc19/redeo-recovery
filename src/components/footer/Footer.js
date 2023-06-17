@@ -22,12 +22,12 @@ const Footer = () => {
 
                     </div>
 
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500} >
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='footer-icon2' />
                     </LinkRoll>
 
 
-                    <LinkRoll activeClass="active" to="scrollToTop" spy={true} smooth={true} duration={500} >
+                    <LinkRoll activeClass="active" to="scrolltop" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='footer-icon' />
                     </LinkRoll>
 
@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
                 <div className="col-container">
 
-                    <div className="col">
+                    <div className="footer-col">
                         <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -62,7 +62,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col">
+                    <div className="footer-col">
                         <h3>Navigation</h3>
                         
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >

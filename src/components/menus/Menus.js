@@ -38,7 +38,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>DEPRESSION</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/depression">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -54,7 +54,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>ANXIETY</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/anxiety">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -70,7 +70,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>PANIC DISORDER</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/panic-disorder">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -86,7 +86,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>STRESS DISORDER</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/acute-stress-disorder">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -102,7 +102,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>ANGER DISORDER</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/anger-disorder">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -118,7 +118,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>ADHD DISORDER</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/adhd">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -134,7 +134,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>PTSD DISORDER</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/ptsd">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -150,7 +150,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>BIPOLAR DISORDER</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/bipolar-disorder">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -166,7 +166,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>SCHIZOAFFECTIVE</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/schizoaffective">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>
@@ -182,7 +182,7 @@ const Menus = () => {
 
     <div className="top-flex-caption">
       <h2>SCHIZOPHRENIA</h2>
-      <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/schizophrenia">
             <p>LEARN MORE <span><AiOutlineArrowRight /></span></p>
         </Link>

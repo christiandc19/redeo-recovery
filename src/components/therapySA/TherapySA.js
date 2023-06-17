@@ -60,7 +60,7 @@ const TherapySA = () => {
                 
                         <LinkRoll
                         activeClass="active"
-                        to="scrollToTop"
+                        to="scrolltop"
                         spy={true}
                         smooth={true}
                         duration={500}>

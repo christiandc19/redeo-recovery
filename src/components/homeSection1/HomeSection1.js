@@ -27,7 +27,7 @@ const HomeSection1 = () => {
                 <FaPills className='card-icon1'/>
                 <h1>Substance Abuse Programs</h1>
                 <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
-                <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/substance-abuse">
                 <div className='card3-btn'>
                 <h5>LEARN MORE</h5>
@@ -46,7 +46,7 @@ const HomeSection1 = () => {
                 <MdWorkOutline className='card-icon2'/>
                 <h1>Jobs Program</h1>
                 <p>Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.</p>
-                <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/jobs">
                 <h5>LEARN MORE</h5>
                 </Link>
@@ -63,7 +63,7 @@ const HomeSection1 = () => {
                 <h1>Mental Health Programs</h1>
                 <p> We provide access to specific mental health services offered by a multidisciplinary team.
                 It is for adults, teenagers and children who present symptoms of the most common mental disorders, such as an anxiety disorder or depression.</p>
-                <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/mental-health">
                 <h5>LEARN MORE</h5>
                 </Link>

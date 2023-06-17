@@ -24,7 +24,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                     <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"  alt="Alcoholism" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/alcohol">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -42,7 +42,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"  alt="Cocaine" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/cocaine">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -60,7 +60,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"  alt="Heroin" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/heroin">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -78,7 +78,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg"  alt="Fentanyl" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/fentanyl">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -96,7 +96,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg"  alt="Kratom" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/kratom">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -114,7 +114,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opiate.jpg"  alt="Opiate" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/opiate">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -132,7 +132,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg"  alt="MDMA" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/mdma">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -150,7 +150,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg"  alt="Meth" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/meth">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -168,7 +168,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opioid.jpg"  alt="Opioid" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/opioid">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -186,7 +186,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg"  alt="Oxycodone" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/oxycodone">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -204,7 +204,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/prescriptions.jpg"  alt="Prescriptions" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/prescriptions">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>
@@ -222,7 +222,7 @@ const MenusSA = () => {
                 <div class="view view-fourth">
                 <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/xanax.jpg"  alt="Xanax" loading="lazy"/>
                     <div class="mask">
-                    <LinkRoll activeClass="active" to="toTop" spy={true} smooth={true} duration={500}>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                         <Link to="/xanax">
                             <p>Learn More <span><AiOutlineArrowRight /></span></p>
                         </Link>

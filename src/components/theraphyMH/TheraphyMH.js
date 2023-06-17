@@ -89,7 +89,7 @@ const TherapyMH = () => {
           <div className="TherapyMH-btn">
             <LinkRoll
               activeClass="active"
-              to="scrollToTop"
+              to="scrolltop"
               spy={true}
               smooth={true}
               duration={500}
@@ -116,7 +116,7 @@ const TherapyMH = () => {
           <div className="TherapyMH-btn2">
             <LinkRoll
               activeClass="active"
-              to="toTop"
+              to="top"
               spy={true}
               smooth={true}
               duration={500}
