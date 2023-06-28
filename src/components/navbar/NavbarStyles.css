@@ -19,11 +19,11 @@
 
 .navbar-logo {
   width: 120px;
+  padding: .5rem;
 }
 
 .navbar-logo img {
   width: 100%;
-  padding: 10px;
 }
 
 .navbar-logo h1 {

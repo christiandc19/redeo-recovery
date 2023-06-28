@@ -87,7 +87,7 @@
     width: 100%;
 }
 
-.col {
+.footer-col {
     width: 300px;
 }
 
@@ -131,7 +131,7 @@
 }
 
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1200px) {
     .footer {
         height: 100%;
     }
@@ -146,9 +146,9 @@
         text-align: center;
     }
 
-.col h3, .col p {
-    text-align: center;
-}
+    .footer-col h3, .footer-col p {
+        text-align: center;
+    }
 
     .license h3 {
         text-align: center;

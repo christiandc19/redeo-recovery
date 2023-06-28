@@ -41,7 +41,7 @@ const Footer = () => {
             </LinkRoll>
           </div>
           <div className="col-container">
-            <div className="col">
+            <div className="footer-col">
               <h3>Company</h3>
 
               <LinkRoll
@@ -93,7 +93,7 @@ const Footer = () => {
               </LinkRoll>
             </div>
 
-            <div className="col">
+            <div className="footer-col">
               <h3>Navigation</h3>
 
               <LinkRoll

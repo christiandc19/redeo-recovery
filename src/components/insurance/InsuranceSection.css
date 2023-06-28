@@ -45,14 +45,13 @@
 }
 
 .group {
-    width: 500px;
+    width: 600px;
     margin: auto;
     padding: 1rem;
 }
 
 .group img {
     max-width: 100%;
-    padding: 1rem;
 }
 
 
@@ -72,6 +71,12 @@
 
 }
 
+
+@media  screen and (max-width:600px) {
+.group {
+    width: 350px;
+}
+}
 
 
 
