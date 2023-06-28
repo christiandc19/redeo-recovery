@@ -25,71 +25,66 @@ const TherapyMH = () => {
           </Fade>
 
           <div className="TherapyMH-right container">
-
-          <Fade left>
-            <div className="box1 item">
-              <div className="box-content">
-                <BiBrain className="box-icon" />
-                <h1>ANXIETY</h1>
-                <p>
-                  Inability to manage one’s drinking habits. It is the most
-                  acute form of alcohol abuse.
-                </p>
+            <Fade left>
+              <div className="box1 item">
+                <div className="box-content">
+                  <BiBrain className="box-icon" />
+                  <h1>ANXIETY</h1>
+                  <p>
+                    Inability to manage one’s drinking habits. It is the most
+                    acute form of alcohol abuse.
+                  </p>
+                </div>
               </div>
-            </div>
-        </Fade>
+            </Fade>
 
-
-        <Fade top>
-            <div className="box2 item">
-              <div className="box-content">
-                <BiSad className="box-icon" />
-                <h1>DEPRESSION</h1>
-                <p>
-                  Abuse of prescription medications can be recreational, due to
-                  addiction, or both, and the consequences can be severe or
-                  fatal.
-                </p>
+            <Fade top>
+              <div className="box2 item">
+                <div className="box-content">
+                  <BiSad className="box-icon" />
+                  <h1>DEPRESSION</h1>
+                  <p>
+                    Abuse of prescription medications can be recreational, due
+                    to addiction, or both, and the consequences can be severe or
+                    fatal.
+                  </p>
+                </div>
               </div>
-            </div>
-        </Fade>
+            </Fade>
 
-        <Fade bottom>
-            <div className="box3 item">
-              <div className="box-content">
-                <FaTheaterMasks className="box-icon" />
-                <h1>BIPOLAR</h1>
-                <p>
-                  Heroin is an opioid stimulant created from morphine and the
-                  seed of the poppy plant. It usually appears in either powder
-                  form or as a sticky tar substance.
-                </p>
+            <Fade bottom>
+              <div className="box3 item">
+                <div className="box-content">
+                  <FaTheaterMasks className="box-icon" />
+                  <h1>BIPOLAR</h1>
+                  <p>
+                    Heroin is an opioid stimulant created from morphine and the
+                    seed of the poppy plant. It usually appears in either powder
+                    form or as a sticky tar substance.
+                  </p>
+                </div>
               </div>
-            </div>
-        </Fade>
+            </Fade>
 
-        <Fade right>
-            <div className="box4 item">
-              <div className="box-content">
-                <GiBrain className="box-icon" />
-                <h1>STRESS DISORDER</h1>
-                <p>
-                  When taken in high doses, Xanax can lead to serious side
-                  effects, ranging from coma, to respiratory arrest, and even
-                  death.
-                </p>
+            <Fade right>
+              <div className="box4 item">
+                <div className="box-content">
+                  <GiBrain className="box-icon" />
+                  <h1>STRESS DISORDER</h1>
+                  <p>
+                    When taken in high doses, Xanax can lead to serious side
+                    effects, ranging from coma, to respiratory arrest, and even
+                    death.
+                  </p>
+                </div>
               </div>
-            </div>
-        </Fade>
-      
+            </Fade>
           </div>
-
-
 
           <div className="TherapyMH-btn">
             <LinkRoll
               activeClass="active"
-              to="scrollToTop"
+              to="top"
               spy={true}
               smooth={true}
               duration={500}
@@ -108,15 +103,10 @@ const TherapyMH = () => {
             </LinkRoll>
           </div>
 
-
-
-
-
-
           <div className="TherapyMH-btn2">
             <LinkRoll
               activeClass="active"
-              to="toTop"
+              to="top"
               spy={true}
               smooth={true}
               duration={500}
@@ -134,18 +124,6 @@ const TherapyMH = () => {
               </Link>
             </LinkRoll>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </>

@@ -8,13 +8,13 @@ import { AiOutlinePhone } from 'react-icons/ai';
 
 const Topbar = () => {
   return (
-    <div className='topbar' name='scrollToTop'>
+    <div className='topbar' name='top'>
             <div className='topbar-content container'>
-                <div className='address bar-box1'>
+                <div className='address bar-box1 topbar-hide'>
                     <p><span><MdLocationPin />&nbsp;</span>240 S Rodeo Dr., Beverly Hills, CA 90212</p>
                 </div>
 
-                <div className='email bar-box2'>
+                <div className='email bar-box2 topbar-hide'>
                     <p><span><FiMail />&nbsp;</span> info@rodeorecovery.com</p>
                 </div>
 

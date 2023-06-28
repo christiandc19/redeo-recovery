@@ -42,12 +42,12 @@ const Navbar = () => {
     return (
         <>
         <Topbar />
-        <div className='navbar' name='toTop'>
+        <div className='navbar'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="150px" height="80px" alt="Rodeo Recovery Rehab Logo" loading="lazy"/>
+                    <img src={logo} alt="Rodeo Recovery Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
