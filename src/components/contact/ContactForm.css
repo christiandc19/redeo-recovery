@@ -118,18 +118,17 @@ input {
     margin: 1rem auto;
     }
 
-    /* iframe {
-      width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
-      justify-content: center;
-    }
+    .hidden {
+      display: none;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
+      width: 10rem;
+      margin: auto;
+      z-index: 2;
+  }
 
-    .iframe {
-      width: 850px;
-    } */
-  
+
 
   @media screen and (max-width: 940px) {
     .get_form_inner {

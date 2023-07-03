@@ -12,9 +12,17 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // Popup message after send button is clicked
+        const feedbackEl = document.querySelector(".feedback");
+        feedbackEl.setAttribute("class", "feedback");
+        setTimeout(function() {
+        feedbackEl.setAttribute("class", "feedback hidden");
+        }, 4000);
 
-        //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+
+
+        //    Service Id                     Template Id                 Public Key (Account Tab) 
+        emailjs.sendForm('service_hsunksm', 'template_f7i147b', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -77,6 +85,12 @@ const ContactForm = () => {
 
         </div>
         <input className="contact-btn" type="submit" value="Submit" />
+
+        <div className="feedback hidden">
+            <h5>Message Sent! </h5>
+        </div>
+
+
       </form>
     </div>
     </div>
