@@ -12,6 +12,7 @@ import HeroLogo from '../../assets/hero-logo.png'
 const Hero = () => {
   return (
     <>
+    <div className="hero-content">
       <div className="hero">
 
       <div class="fling-minislide">
@@ -23,13 +24,13 @@ const Hero = () => {
 
       <div class="title-wrapper">
 
-        {/* <Fade left>
-          <h2>WELCOME TO</h2>
-        </Fade> */}
+        <div className="hero-box">
 
-        <Fade right>
-            <img src={HeroLogo} loading="lazy" width="500px" height="150px" repeat-x alt='wave divider'/>
-        </Fade>
+          <div className="hero-image">
+            <Fade right>
+              <img src={HeroLogo} loading="lazy" repeat-x alt='Rodeo Recovery Logo'/>
+            </Fade>
+          </div>
 
         <Fade left>
           <h3><span>SUBSTANCE ABUSE </span> ADDICTION AND </h3>
@@ -52,33 +53,24 @@ const Hero = () => {
                 <button>LEARN MORE</button>
               </Fade>
             </Link>
-
           </div>
 
         </div>
-      </div>
 
         
-        {/* <div className="hero-container">
-          <div className="content">
-            <h1 className="animate-charcter">Redding Rehab</h1>
-            <Fade left>
-              <h2 className="subtitle">
-                Substance Abuse Addiction and Mental Health Treatment Facility
-              </h2>
-            </Fade>
-            <br />
-            <div className="hero-btn">
-              <Link to="/contact">
-                <button>Contact Us</button>
-              </Link>
-            </div>
-            <br />
-            <Fade bottom>
-              <p>Find your happiness and learn to put it first.</p>
-            </Fade>
+        <Fade left>
+          <div className="rate">
+          <h4>60%</h4>
+          <h3>Sobriety Success</h3>
+          <p>60% of our clients are abstinent from drugs and alcohol 6 months.</p>
           </div>
-        </div> */}
+        </Fade>
+
+        </div>
+
+
+      </div>
+      </div>
       </div>
     </>
   );

@@ -149,7 +149,7 @@ const Footer = () => {
               <h3>Licensed by the State Department of Health Care Services</h3>
               <p>
                 License Number: 191057BP <br />
-                Expiration Date: 6 / 30 / 2023{" "}
+                Expiration Date: 6 / 30 / 2025{" "}
               </p>
               <br />
 
