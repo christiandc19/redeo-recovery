@@ -1,5 +1,6 @@
 import React from 'react'
 import './Whoweare.css'
+import Fade from 'react-reveal/Fade';
 
 import { BsCheckLg } from 'react-icons/bs';
 import HomeSection2Image from '../../assets/slider1.jpg'
@@ -12,8 +13,9 @@ const Whoweare = () => {
 
 <div className='homeSection2 '>
         <div className='homeSection2-content container'>
-            <div className='homeSection2-left'>
 
+        <Fade left>
+            <div className='homeSection2-left'>
 
             <h1>ABOUT RODEO RECOVERY</h1>
                 <h2>We're here to help you find a path to <span>recovery.</span></h2>
@@ -43,18 +45,16 @@ const Whoweare = () => {
                     </div>
                 </div>                       
             </div>
+        </Fade>
 
-
+        <Fade right>
             <div className='homeSection2-right'>
-                            
-                                <img src={HomeSection2Image} loading="lazy" alt='psychologist'/>
-
-
-                                <div className="leaf2">
-            <img src={leaf2} alt="leaf" loading="lazy" />
+                    <img src={HomeSection2Image} loading="lazy" alt='psychologist'/>
+                    <div className="leaf2">
+                        <img src={leaf2} alt="leaf" loading="lazy" />
+                    </div>
             </div>
-
-            </div>
+        </Fade>
 
         </div>
 

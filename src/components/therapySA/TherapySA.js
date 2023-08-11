@@ -2,6 +2,7 @@ import React from "react";
 import "./TherapySA.css";
 import { Link as LinkRoll } from "react-scroll";
 import { Link } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 
 const TherapySA = () => {
   return (
@@ -19,6 +20,8 @@ const TherapySA = () => {
           </div>
 
           <div className="therapySA-flex container">
+
+          <Fade left>
             <div className="therapySA-flexItem">
               <div className="flex-img">
                 <img
@@ -36,7 +39,10 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+
+          <Fade top>
             <div className="therapySA-flexItem">
               <div className="flex-img">
                 <img
@@ -55,7 +61,9 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
+          <Fade right>
             <div className="therapySA-flexItem">
               <div className="flex-img">
                 <img
@@ -74,6 +82,7 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+            </Fade>
           </div>
 
           <LinkRoll
