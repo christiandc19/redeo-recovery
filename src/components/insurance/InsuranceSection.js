@@ -21,41 +21,41 @@ const InsuranceSection = () => {
                 <h1>WE WORK WITH MAJOR INSURANCE</h1>
                 <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
-                <div className="content">
+                <div className="content container">
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Aetna} height="100" alt="Aetna Insurance Logo" loading="lazy"/>
+                                <img src={Aetna}  alt="Aetna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Beacon} width="640" height="100" alt="Beacon Insurance Logo" loading="lazy"/>
+                                <img src={Beacon} alt="Beacon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Bluecross} width="640" height="100" alt="Bluecross Insurance Logo" loading="lazy"/>
+                                <img src={Bluecross} alt="Bluecross Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Cigna} width="640" height="100" alt="Cigna Insurance Logo" loading="lazy"/>
+                                <img src={Cigna} alt="Cigna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Horizon} width="640" height="100" alt="Horizon Insurance Logo" loading="lazy"/>
+                                <img src={Horizon} alt="Horizon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Anthem} width="640" height="100" alt="Optum Health Insurance Logo" loading="lazy"/>
+                                <img src={Anthem}  alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                 </div>
