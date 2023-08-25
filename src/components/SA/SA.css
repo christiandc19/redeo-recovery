@@ -2,8 +2,8 @@
 
 .sa {
     width: 100%;
-    height: 80vh;
-    background: rgba(2, 2, 2, 0.521);
+    height: 100vh;
+    background: rgba(2, 2, 2, 0.158);
     position: relative;
   }
   
@@ -11,22 +11,19 @@
     content: '';
     position: absolute;
     background: url('../../assets/sa-submenu-bg.jpg') no-repeat center top/cover;
-    height: 80vh;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
   
 
-.sa {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .sa .sa-content {
+    width: 40%;
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
+    right: 5%;
     padding: 1rem;
 }
 
@@ -43,7 +40,16 @@
 
 @media screen and (max-width:940px) {
 
+    .sa .sa-content {
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 60%;
+        right: 0%;
+        padding: 1rem;
+    }
+
 .sa h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 }
