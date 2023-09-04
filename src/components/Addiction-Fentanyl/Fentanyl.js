@@ -14,8 +14,8 @@ const Fentanyl = () => {
             </div>
                 <div className="fentanyl-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>FENTANYL</h1>
+                    <h1>FENTANYL ADDICTION</h1>
+                    <h3>SUBSTANCE ABUSE</h3>
                     </Fade>
             </div>
         </div>

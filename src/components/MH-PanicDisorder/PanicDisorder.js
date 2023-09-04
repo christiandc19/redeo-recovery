@@ -14,8 +14,8 @@ const PanicDisorder = () => {
             </div>
                 <div className="PanicDisorder-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
                     <h1>PANIC DISORDER</h1>
+                    <h3>MENTAL HEALTH</h3>
                     </Fade>
             </div>
         </div>

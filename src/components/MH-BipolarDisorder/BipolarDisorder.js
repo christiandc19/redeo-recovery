@@ -14,8 +14,8 @@ const BipolarDisorder = () => {
             </div>
                 <div className="BipolarDisorder-content">
                     <Fade top>
-                    <h3>- MENTAL HEALTH</h3>
                     <h1>BIPOLAR DISORDER</h1>
+                    <h3>MENTAL HEALTH</h3>
                     </Fade>
             </div>
         </div>

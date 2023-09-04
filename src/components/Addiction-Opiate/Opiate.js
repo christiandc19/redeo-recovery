@@ -13,9 +13,9 @@ const Opiate = () => {
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                 <div className="opiate-content">
-                    <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>OPIATE</h1>
+                    <Fade top>                    
+                    <h1>OPIATE ADDICTION</h1>
+                    <h3>SUBSTANCE ABUSE</h3>
                     </Fade>
             </div>
         </div>

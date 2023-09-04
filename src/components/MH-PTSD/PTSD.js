@@ -14,8 +14,8 @@ const PTSD = () => {
             </div>
                 <div className="Ptsd-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
                     <h1>POST-TRAUMATIC STRESS DISORDER</h1>
+                    <h3>MENTAL HEALTH</h3>
                     </Fade>
             </div>
         </div>

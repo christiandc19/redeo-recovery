@@ -4,6 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import SCHIZOAFFECTIVE from '../components/MH-Schizoaffective/Schizoaffective'
 import SchizoaffectiveSection from '../components/MH-Schizoaffective/SchizoaffectiveSection'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const Schizoaffective  = () => {
@@ -12,6 +13,7 @@ const Schizoaffective  = () => {
     <Navbar /> 
     <SCHIZOAFFECTIVE />
     <SchizoaffectiveSection />
+    <ContactForm />
     <Footer />
      </>
   )

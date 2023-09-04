@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="rate">
           <h4>60%</h4>
           <h3>Sobriety Success</h3>
-          <p>60% of our clients are abstinent from drugs and alcohol 6 months.</p>
+          <p>60% of our clients are abstinent from drugs and alcohol in 6 months.</p>
           </div>
         </Fade>
 

@@ -27,19 +27,19 @@
 .Schizophrenia .Schizophrenia-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
 .Schizophrenia h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 .Schizophrenia h3 {
-    color: white;
-    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 

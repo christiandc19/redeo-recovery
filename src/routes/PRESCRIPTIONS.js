@@ -4,6 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import FENTANYL from '../components/Addiction-Prescriptions/Prescriptions'
 import FentanylSection from '../components/Addiction-Prescriptions/PrescriptionsSection'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const Prescriptions = () => {
@@ -12,6 +13,7 @@ const Prescriptions = () => {
     <Navbar /> 
     <FENTANYL />
     <FentanylSection />
+    <ContactForm />
     <Footer />
      </>
   )

@@ -14,8 +14,8 @@ const Xanax = () => {
             </div>
                 <div className="xanax-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>XANAX</h1>
+                    <h1>XANAX ADDICTION</h1>
+                    <h3>SUBSTANCE ABUSE</h3>
                     </Fade>
             </div>
         </div>

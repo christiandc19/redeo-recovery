@@ -27,7 +27,7 @@
 .cocaine .cocaine-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -39,7 +39,7 @@
 
 .cocaine h3 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 

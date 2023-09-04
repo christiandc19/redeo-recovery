@@ -39,8 +39,16 @@ feedbackEl.setAttribute("class", "feedback hidden");
     return (
         <>
 
-<section className="contact-container">
+<div className="bg">
 
+
+<div className="contact2-header contact2-container">
+            <h1>DO YOU NEED URGENT HELP?</h1>
+            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+</div>
+
+
+<section className="contact-container">
 <Fade left>
 <div className="contact-cards-container">
     
@@ -92,7 +100,8 @@ feedbackEl.setAttribute("class", "feedback hidden");
 </div>
 
 </section>
- 
+</div>
+
 
 
         </>
