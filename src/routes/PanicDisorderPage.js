@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer'
 import PANICDISORDER from '../components/MH-PanicDisorder/PanicDisorder'
 import PanicDisorderSection from '../components/MH-PanicDisorder/PanicDisorderSection'
 import ContactForm from '../components/contact/ContactForm'
+import Insurance from '../components/insurance/InsuranceSection'
 
 
 const PanicDisorder = () => {
@@ -13,6 +14,7 @@ const PanicDisorder = () => {
     <Navbar /> 
     <PANICDISORDER />
     <PanicDisorderSection />
+    <Insurance />
     <ContactForm />
     <Footer />
      </>

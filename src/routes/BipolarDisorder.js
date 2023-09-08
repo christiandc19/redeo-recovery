@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer'
 import BIPOLARDISORDER from '../components/MH-BipolarDisorder/BipolarDisorder'
 import BipolarDisorderSection from '../components/MH-BipolarDisorder/BipolarDisorderSection'
 import ContactForm from '../components/contact/ContactForm'
+import Insurance from '../components/insurance/InsuranceSection'
 
 
 const BipolarDisorder = () => {
@@ -13,6 +14,7 @@ const BipolarDisorder = () => {
     <Navbar /> 
     <BIPOLARDISORDER />
     <BipolarDisorderSection />
+    <Insurance />
     <ContactForm />
     <Footer />
      </>

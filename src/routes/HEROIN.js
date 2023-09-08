@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer'
 import HEROIN from '../components/Addiction-Heroin/Heroin'
 import HeroinSection from '../components/Addiction-Heroin/HeroinSection'
 import ContactForm from '../components/contact/ContactForm'
+import Insurance from '../components/insurance/InsuranceSection'
 
 
 const Heroin = () => {
@@ -13,6 +14,7 @@ const Heroin = () => {
     <Navbar /> 
     <HEROIN />
     <HeroinSection />
+    <Insurance />
     <ContactForm />
     <Footer />
      </>
