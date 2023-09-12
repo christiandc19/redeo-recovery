@@ -17,7 +17,6 @@
     z-index: -1;
   }
   
-
 .residence {
     display: flex;
     flex-wrap: wrap;
@@ -25,9 +24,10 @@
 }
 
 .residence .residence-content {
+    width: 60%;
     display: block;
     position: absolute;
-    top: 40%;
+    top: 25%;
     padding: 1rem;
 }
 
@@ -35,7 +35,26 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
+    padding: .5rem 0;
 }
+
+.residence p {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -43,5 +62,10 @@
 
 .residence h1 {
     font-size: 2rem;
+}
+
+.residence .residence-content {
+    width: 90%;
+    top: 30%;
 }
 }

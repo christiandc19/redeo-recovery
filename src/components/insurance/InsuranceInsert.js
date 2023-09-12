@@ -9,9 +9,10 @@ import Cigna from '../../assets/cigna.png'
 import Horizon from '../../assets/horizon.png'
 import Anthem from '../../assets/anthem.png'
 
+import Group from '../../assets/group.jpg'
 
 
-const InsuranceInsert = () => {
+const InsuranceSection = () => {
     return (
         <>
         <div className='InsuranceSection'>
@@ -59,6 +60,13 @@ const InsuranceInsert = () => {
                             </Fade>
                 </div>
             </div>
+
+
+            <div className='group'>
+            <Fade bottom>
+                <img src={Group}  alt="Company Team" loading="lazy" />
+            </Fade>
+            </div>
         </div>
 
 
@@ -67,4 +75,4 @@ const InsuranceInsert = () => {
     )
 }
 
-export default InsuranceInsert
+export default InsuranceSection

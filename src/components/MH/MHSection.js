@@ -2,6 +2,7 @@ import React from 'react'
 
 import Contact2 from '../contact/Contact2'
 import Menus from '../menus/Menus';
+import InsuranceInsert from '../insurance/InsuranceSection';
 
 
 
@@ -11,6 +12,7 @@ const MHSection = () => {
     <>
 
 <Menus />
+<InsuranceInsert />
 <Contact2 />
 
     </>
