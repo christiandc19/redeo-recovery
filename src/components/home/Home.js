@@ -8,6 +8,7 @@ import HomeSection1 from '../homeSection1/HomeSection1';
 import HomeMission from '../mission/HomeMission';
 import TherapyMH from '../theraphyMH/TheraphyMH';
 import TherapySA from '../therapySA/TherapySA';
+import InsuranceHome from '../insurance/InsuranceHome';
 
 
 
@@ -22,6 +23,7 @@ const home = () => {
     <Team />
     <HomeMission />
     <InsuranceSection />
+    <InsuranceHome />
     <ContactForm />
     </>
   )
