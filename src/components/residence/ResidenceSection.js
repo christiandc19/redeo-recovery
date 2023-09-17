@@ -8,6 +8,8 @@ import './ResidenceSection.css'
 const ResidenceSection = () => {
   return (
 <>
+<div className='residence-section'>
+
 <div className="residence-section-header container">
                 <h1>OUR HOMES</h1><br/>
                 <p>Welcome to our Rodeo Recovery Sober Living Community, where hope, support, and transformation flourish. We understand that the journey to recovery is a profound and courageous one. Our mission is to provide a safe, nurturing environment where individuals can rebuild their lives, rediscover their potential, and embrace a future free from addiction.
@@ -109,6 +111,7 @@ const ResidenceSection = () => {
                     <h1>Get in Touch</h1><br/>
                     <p>Are you ready to take the next step towards a fulfilling, sober life? Reach out to us today to learn more about our Sober Living Community and how we can support you on your journey to lasting recovery.
                     </p>
+</div>
 </div>
 
 <ContactForm />
