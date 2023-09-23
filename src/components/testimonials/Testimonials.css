@@ -10,7 +10,7 @@
   .testimonials:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-testimonials.jpg') no-repeat center bottom/cover;
+    background: url('../../assets/menu-bg-testimonials.webp') no-repeat center bottom/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

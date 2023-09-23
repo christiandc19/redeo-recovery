@@ -11,7 +11,7 @@
   .team:before {
     content: '';
     position: absolute;
-    background: url('../../assets/submenu-bg-team.jpg') no-repeat center center/cover;
+    background: url('../../assets/submenu-bg-team.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

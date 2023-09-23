@@ -2,12 +2,12 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
 
-import Aetna from '../../assets/aetna.png'
-import Beacon from '../../assets/beacon.png'
-import Bluecross from '../../assets/bluecross.png'
-import Cigna from '../../assets/cigna.png'
-import Horizon from '../../assets/horizon.png'
-import Anthem from '../../assets/anthem.png'
+import Aetna from '../../assets/aetna.webp'
+import Beacon from '../../assets/beacon.webp'
+import Bluecross from '../../assets/bluecross.webp'
+import Cigna from '../../assets/cigna.webp'
+import Horizon from '../../assets/horizon.webp'
+import Anthem from '../../assets/anthem.webp'
 
 
 

@@ -3,7 +3,7 @@ import './MissionSection.css'
 // import Fade from 'react-reveal/Fade';
 import ContactForm from '../contact/ContactForm'
 
-import Mission from '../../assets/mission-img1.png'
+import Mission from '../../assets/mission-img1.webp'
 // import Staff from '../../assets/staff.jpg'
 // import Clinic from '../../assets/clinic.jpg'
 // import Work from '../../assets/employment-assistance.jpg'

@@ -2,7 +2,7 @@ import React from 'react'
 import './TestimonialsSection.css'
 import Fade from 'react-reveal/Fade';
 
-import Testimonials1 from '../../assets/testimonials1.jpg'
+import Testimonials1 from '../../assets/testimonials1.webp'
 
 
 const TestimonialsSection = () => {

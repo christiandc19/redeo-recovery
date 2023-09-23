@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import { BsCheckLg } from 'react-icons/bs';
 import HomeSection2Image from '../../assets/slider1.jpg'
-import leaf2 from "../../assets/leaf.png";
+import leaf2 from "../../assets/leaf.webp";
 
 
 const Whoweare = () => {

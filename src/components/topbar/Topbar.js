@@ -14,7 +14,7 @@ const Topbar = () => {
                     <p><span><MdLocationPin />&nbsp;</span>240 S Rodeo Dr., Beverly Hills, CA 90212</p>
                 </div>
 
-                <div className='email bar-box2 topbar-hide'>
+                <div className='email bar-box2'>
                     <p><span><FiMail />&nbsp;</span> info@rodeorecovery.com</p>
                 </div>
 

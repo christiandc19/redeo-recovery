@@ -3,10 +3,10 @@ import './TeamSection.css'
 import Fade from 'react-reveal/Fade';
 
 
-import Ashley from '../../assets/Ashley.jpg'
-import Honey from '../../assets/Honey.jpg'
-import Anthony from '../../assets/Anthony.jpg'
-import Imelda from '../../assets/Imelda.jpg'
+import Ashley from '../../assets/Ashley.webp'
+import Honey from '../../assets/Honey.webp'
+import Anthony from '../../assets/Anthony.webp'
+import Imelda from '../../assets/Imelda.webp'
 
 
 const TeamSection = () => {

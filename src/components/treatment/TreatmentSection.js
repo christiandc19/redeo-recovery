@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Treatment1 from '../../assets/treatment1.jpg'
-import Treatment2 from '../../assets/treatment2.jpg'
-import TreatmentImage2 from '../../assets/treatment-2.jpg'
-import Activities from "../../assets/activities-min.png";
+import Treatment1 from '../../assets/treatment1.webp'
+import Treatment2 from '../../assets/treatment2.webp'
+import TreatmentImage2 from '../../assets/treatment-2.webp'
+import Activities from "../../assets/activities-min.webp";
 
 // import { FaRegStar } from 'react-icons/fa';
 import { AiOutlineCheckCircle } from 'react-icons/ai';

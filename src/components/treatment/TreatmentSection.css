@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .treatment-section-overview {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .treatment-section-overview p {
-    padding: 1rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -14,7 +13,7 @@
 }
 
 .treatment-section-overview h1 {
-    padding: 1rem 1rem;
+    padding: 1rem 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
@@ -25,7 +24,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 .overview-left {
@@ -35,6 +34,7 @@
 
 .overview-left img {
     width: 100%;
+    height: auto;
     border-radius: 1rem;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .overview-right p {
-    text-align: left;
+    text-align: justify;
 }
 
 
@@ -54,14 +54,15 @@
 
 .treatment-section2 {
     background-color: var(--primary-color);
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .treatment-section2-header {
-    text-align: center;
+    text-align: justify;
 }
 
 .treatment-section2-header h1 {
+    text-align: center;
     padding: 1rem;
     color: rgb(223, 213, 213);
 }
@@ -74,7 +75,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 3rem 1rem;
+    padding: 3rem 0;
 }
 
 .treatment-section2-left {
@@ -88,11 +89,12 @@
 }
 
 .treatment-section2-left p {
-    text-align: left;
+    text-align: justify;
 }
 
 .treatment-section2-right img {
     width: 100%;
+    height: auto;
     border-radius: 1rem;
 }
 
@@ -103,14 +105,14 @@
 /* Treatment Section 3 */
 
 .treatment-section3 {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .treatment-section3-flex {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 4rem 1rem;
+    padding: 4rem 0;
 }
 
 .treatment-section3-right {
@@ -120,16 +122,17 @@
 }
 
 .treatment-section3-right p {
-    text-align: left;
+    text-align: justify;
 }
 
 .treatment-section3-left {
     width: 500px;
-    padding: 1rem 0;
+    margin: auto;
 }
 
 .treatment-section3-left img {
     width: 100%;
+    height: auto;
     border-radius: 1rem;
 }
 
@@ -139,14 +142,14 @@
 
 .treatment-section4 {
     background-color: var(--primary-color);
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .treatment-section4-flex {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 4rem 1rem;
+    padding: 4rem 0;
 }
 
 .treatment-section4-left {
@@ -157,10 +160,13 @@
 
 .treatment-section4-right {
     width: 500px;
+    height: auto;
+    margin: auto;
 }
 
 .treatment-section4-right img {
     width: 100%;
+    height: auto;
     border-radius: 1rem;
 }
 
@@ -169,20 +175,20 @@
 /* Treatment Section 5 */
 
 .treatment-section5 {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .treatment-section5-header {
-    padding: 1rem ;
+    padding: 1rem 0;
 }
 
 .treatment-section5-icon h3 {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 
 .treatment-section5-icon p {
-    padding: 0 1rem;
+    padding: .5rem 0;
     text-align: left;
 }
 
@@ -271,5 +277,12 @@
         text-align: center;
     }
 
+    .treatment-section-overview h1 {
+        font-size: 1.2rem;
+    }
+
+    .treatment-section-overview p {
+        text-align: justify;
+    }
 
 }

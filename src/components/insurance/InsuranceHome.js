@@ -1,6 +1,6 @@
 import React from 'react'
 import './InsuranceHome.css'
-import InsuranceHomeImg from "../../assets/insurance-section-img-min.png";
+import InsuranceHomeImg from "../../assets/insurance-section-img-min.webp";
 
 
 

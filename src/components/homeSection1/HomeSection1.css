@@ -85,7 +85,7 @@
   .card1:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-icon2.png') no-repeat center center/cover;
+    background: url('../../assets/sa-icon2.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -121,7 +121,7 @@
   .card2:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-icon2.png') no-repeat center center/cover;
+    background: url('../../assets/sa-icon2.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -159,7 +159,7 @@
   .card3:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-icon2.png') no-repeat center center/cover;
+    background: url('../../assets/sa-icon2.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
