@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo.png'
-import {FiChevronDown } from "react-icons/fi";
+import {BsFillCaretDownFill } from "react-icons/bs";
 import Topbar from '../../components/topbar/Topbar'
 
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/substance-abuse`}> Addiction <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/substance-abuse`}> Addiction <BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol Addiction</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine Addiction</NavLink> </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     </li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
@@ -97,7 +97,7 @@ const Navbar = () => {
 
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>

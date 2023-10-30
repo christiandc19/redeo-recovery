@@ -3,7 +3,7 @@
 
 .contact-hero {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     background: #12121379;
   }
@@ -20,7 +20,7 @@
 .contact-hero .contact-hero-content {
     position: absolute;
     width: 80%;
-    top: 40%;
+    bottom: 20%;
     left: 5%;
     padding: 1rem;
 }

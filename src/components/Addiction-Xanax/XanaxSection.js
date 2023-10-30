@@ -92,7 +92,7 @@ const XanaxSection = () => {
         </div>
 
         <div className='xanax-section-right'>
-        <img src='https://sunset-rehab.s3.us-west-1.amazonaws.com/xanax-addiction.jpg' alt="activities" />
+        <img src='https://sunset-rehab.s3.us-west-1.amazonaws.com/fentanyl-addiction.jpg' alt="activities" />
         </div>
         </div>
 

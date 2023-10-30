@@ -33,7 +33,6 @@ const TeamSection = () => {
                     <Fade top>
                     <div className='team-thumbnail'>
                     <img src={ Honey } alt="Honey" loading="lazy"/>
-                    {/* <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team3-min.jpg" width="300" height="250" alt="Bluecross  Logo" loading="lazy"/> */}
                     <p><b>Honey Phipps</b><br/><i>Executive Director</i></p>
                     </div>
                     </Fade>
@@ -42,7 +41,6 @@ const TeamSection = () => {
                     <Fade bottom>
                     <div className='team-thumbnail'>
                     <img src={ Anthony } alt="Anthony" loading="lazy"/>
-                    {/* <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team5-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/> */}
                         <p><b>Anthony Raines</b><br/><i>Lead Case Manager</i></p>  
                     </div>
                     </Fade>    
@@ -50,7 +48,6 @@ const TeamSection = () => {
                     <Fade bottom>
                     <div className='team-thumbnail'>
                     <img src={ Imelda } alt="Imelda" loading="lazy"/>
-                    {/* <img src="https://rodeo-recovery.s3.us-west-1.amazonaws.com/rodeo_recovery_medias/team7-min.jpg" width="300" height="250" alt="People in Working Uniform" loading="lazy"/> */}
                         <p><b>Imelda Medina</b><br/><i>Lead Nurse</i></p>  
                     </div>
                     </Fade>                 

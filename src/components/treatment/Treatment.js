@@ -2,9 +2,8 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Treatment.css'
 
-import ContactForm from '../contact/ContactForm';
+import Contact2 from '../contact/Contact2';
 import TreatmentSection from './TreatmentSection';
-
 
 const Treatment = () => {
     return (
@@ -13,16 +12,18 @@ const Treatment = () => {
 
 {/* -------------------------------- HERO -------------------------------------- */}
 
-        <div className='treatment main-menu'>
+        <div className='treatment'>
+
             <div className="treatment-content">
                 <Fade right>
-                    <h1>TREATMENT</h1>
+                    <h1>TREATMENT PROGRAMS</h1>
+                    <p>Treatment Planning for Long-Lasting Recovery</p>
                 </Fade>
             </div>
         </div>
 
         <TreatmentSection />
-        <ContactForm />
+        <Contact2 />
         </>
     )
 }

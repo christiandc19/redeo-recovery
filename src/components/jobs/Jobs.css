@@ -3,7 +3,7 @@
 
 .jobs {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     background: #00000036;
   }
@@ -22,13 +22,13 @@
     display: block;
     position: absolute;
     width: 100%;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
     padding: 1rem;
 }
 
 .jobs h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
@@ -40,10 +40,6 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
-
-.jobs h2 {
-    font-size: 1.5rem;
-}
 
 .jobs h1 {
     font-size: 2rem;

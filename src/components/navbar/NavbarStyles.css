@@ -69,7 +69,7 @@
 }
 
   .menu-item .sub__menus li a {
-    color: #353535;
+    color: #f3ecec;
     font-size: 13px;
     padding: -1rem ;
   }
@@ -82,34 +82,24 @@
 .sub__menus {
     position: absolute;
     display: none;
-    background: white;
-    border: 1px solid lavender;
-    border-radius: 10px;
+    background: #5a5c82;
+    border-radius: 5px;
     width: auto;
-    left: 0rem;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
   }
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
-  .sub__menus__arrows {
-    position: relative;
-  }
 
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-    padding-top: 0px;
-    position: absolute;
+    padding-top: 5px;
     top: 10px;
+    font-size: 18px;
   }
-
 
   
 @media screen and (max-width: 1200px) {
-
-    .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-      display: none;
-    }
 
     .navbar .hamburger {
         display: block;
@@ -142,6 +132,7 @@
 
     .menu-item .sub__menus li a {
         font-size: 14px;
+        color: var(--primary-color);
       }
 
       li .submenu-header {
@@ -156,14 +147,19 @@
         justify-content: space-between;
       }
 
+      .sub__menus {
+        background: #f4f4f7;
+      }
+    
+
 }
 
-
+/* 
 @media screen and (max-width: 700px)  {
   .sub__menus {
     left: -3rem;
   }
-}
+} */
 
 
 

@@ -10,8 +10,8 @@ import { Link as LinkRoll } from "react-scroll";
 const HomeSection1 = () => {
   return (
     <>
-      <div className="wwa">
-        <div className="wwa-header">
+      <div className="section1">
+        <div className="section1-header">
           <h1>WHAT WE OFFER</h1>
           {/* <h2>Services from our best professionals</h2> */}
           <p>
@@ -20,7 +20,7 @@ const HomeSection1 = () => {
           </p>
         </div>
 
-        <div className="wwa-cards">
+        <div className="section1-cards">
           <div className="wwa-cards-contents">
             <div className="card1 card">
               <Fade left>
