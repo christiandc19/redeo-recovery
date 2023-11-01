@@ -93,9 +93,8 @@
   /* -----------------------------------------------------> DROPDOWN ARROW */
 
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-    padding-top: 5px;
     top: 10px;
-    font-size: 18px;
+    font-size: 12px;
   }
 
   
@@ -154,12 +153,6 @@
 
 }
 
-/* 
-@media screen and (max-width: 700px)  {
-  .sub__menus {
-    left: -3rem;
-  }
-} */
 
 
 
