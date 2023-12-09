@@ -58,14 +58,14 @@
 .navbar li {
     font-size: 13px;
     width: max-content;
-    padding: .5rem 1rem;
+    padding: .5rem .5rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
 .navbar li a {
-  font-weight: 600;
+  font-weight: 300;
 }
 
   .menu-item .sub__menus li a {

@@ -10,6 +10,7 @@ import TestimonialPage from './routes/TestimonialPage'
 import MissionPage from './routes/MissionPage'
 import ResidencePage from './routes/ResidencePage'
 import InsurancePage from './routes/InsurancePage'
+import CommunityPage from './routes/CommunityPage'
 import ContactPage from './routes/ContactPage'
 
 import MH from './routes/MH';
@@ -89,6 +90,7 @@ ReactDOM.render(
 
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
+      <Route exact path='/community-links' element={<CommunityPage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,

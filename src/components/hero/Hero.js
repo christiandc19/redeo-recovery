@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import Zoom from 'react-reveal/Zoom';
 import "./Hero.css";
 import Hero1 from '../../assets/Hero1.webp'
 import Hero2 from '../../assets/Hero2.webp'
@@ -27,15 +28,15 @@ const Hero = () => {
         <div className="hero-box">
 
           <div className="hero-image">
-            <Fade right>
+          <Zoom duration={1000}>
               <img src={HeroLogo} loading="lazy" repeat-x alt='Rodeo Recovery Logo'/>
-            </Fade>
+            </Zoom>
           </div>
 
-        <Fade left>
+          <Zoom duration={2500}>
           <h3><span>SUBSTANCE ABUSE </span> ADDICTION AND </h3>
           <h3><span>MENTAL HEALTH </span> TREATMENT FACILITY</h3>
-        </Fade>
+          </Zoom>
 
         <div className="hero-btn">
 
@@ -49,22 +50,22 @@ const Hero = () => {
 
           <div className="hero-btn2">
             <Link to="/treatment">
-              <Fade right>
+            <Zoom duration={3000}>
                 <button>LEARN MORE</button>
-              </Fade>
+              </Zoom>
             </Link>
           </div>
 
         </div>
 
         
-        <Fade left>
+        <Zoom duration={3000}>
           <div className="rate">
           <h4>60%</h4>
           <h3>Sobriety Success</h3>
           <p>60% of our clients are abstinent from drugs and alcohol in 6 months.</p>
           </div>
-        </Fade>
+        </Zoom>
 
         </div>
 
