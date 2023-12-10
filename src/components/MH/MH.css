@@ -50,7 +50,6 @@
         width: 100%;
         display: block;
         position: absolute;
-        top: 60%;
         right: 0%;
         padding: 1rem;
     }
@@ -59,4 +58,10 @@
     font-size: 2.5rem;
 }
 
+}
+
+@media screen and (max-width:700px) {
+    .mh {
+        height: 100vh;
+      }
 }

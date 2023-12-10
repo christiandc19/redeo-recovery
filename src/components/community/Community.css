@@ -59,6 +59,10 @@
 
 @media screen and (max-width:700px) {
 
+    .community {
+        height: 100vh;
+      }
+
     .community h1 {
         font-size: 1.5rem;
     }
@@ -70,7 +74,5 @@
     .community .community-content {
         bottom: 10%;
     }
-
-
 
     }
