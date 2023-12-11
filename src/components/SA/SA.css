@@ -58,4 +58,10 @@
     .sa {
         height: 100vh;
       }
+      
+      .sa .sa-content {
+        bottom: 30%;
+    }
+    
+
 }

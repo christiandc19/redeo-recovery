@@ -56,6 +56,10 @@
   .treatment {
       height: 100vh;
   }
+
+  .treatment .treatment-content {
+    bottom: 30%;
+}
   
 }
 

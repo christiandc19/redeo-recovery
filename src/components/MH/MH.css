@@ -64,4 +64,8 @@
     .mh {
         height: 100vh;
       }
+
+      .mh .mh-content {
+        bottom: 30%;
+    }
 }

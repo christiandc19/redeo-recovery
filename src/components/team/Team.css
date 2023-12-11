@@ -58,4 +58,8 @@
     .team {
         height: 100vh;
       }
+
+      .team .team-content {
+        bottom: 30%;
+    }
 }

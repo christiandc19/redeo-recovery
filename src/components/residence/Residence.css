@@ -67,4 +67,8 @@
     .residence {
         height: 100vh;
     }
+
+    .residence .residence-content {
+        bottom: 30%;
+    }
 }

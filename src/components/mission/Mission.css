@@ -54,4 +54,8 @@
     .mission {
         height: 100vh;
       }
+
+      .mission .mission-content {
+        bottom: 30%;
+    }
 }
