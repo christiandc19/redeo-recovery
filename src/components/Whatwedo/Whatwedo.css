@@ -44,9 +44,9 @@
 
 .leaf {
     position: absolute;
-    width: 15%;
-    left: 1%;
-    bottom: 0%;
+    width: 35%;
+    left: -5%;
+    bottom: -5%;
 }
 
 
@@ -73,11 +73,6 @@
     .wrapper-content-right h2 {
         font-size: 1.5rem;
     }
-
-    .leaf {
-        display: none;
-    }
-
 
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Whatwedo.css";
-import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
 import wrapper1 from "../../assets/wrapper1-min.webp";
@@ -12,39 +11,31 @@ const WhatWeDo = () => {
       <div className="wrapper1 ">
         <div className="wrapper-content container">
 
+        <Zoom duration={2000}>
           <div className="wrapper-content-left">
-          <img src={wrapper1} alt="nurse" loading="lazy"/>
+            <img src={wrapper1} alt="nurse" loading="lazy"/>
 
             <div className="leaf">
             <img src={leaf} alt="leaf" loading="lazy" className="leaf"/>
             </div>
           </div>
-        
+        </Zoom>
 
           <div className="wrapper-content-right">
-          <Zoom duration={1000}>
             <h1>What We Do</h1> <br />
             <h2>
               <i>We care about your mental health.</i>
             </h2>
-          </Zoom>
-
             <br />
-          
-          <Fade bottom>
             <p>
               At Rodeo Rehab Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP).
               You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one. <br />
             </p>
-          </Fade>
         
             <br />
 
-          <Fade left>
             <h1>Treatment</h1> <br />
-          </Fade>
 
-          <Fade bottom>
             <p>
               All treatment clients will have a recovery/treatment plan
               developed within 30 days of admission. Measurement and
@@ -56,7 +47,6 @@ const WhatWeDo = () => {
               resolution of the objective. All treatment plans are reviewed by
               and signed off on by the clinical director.
             </p>
-          </Fade>
 
           </div>
         </div>

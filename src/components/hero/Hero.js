@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="hero-box">
 
           <div className="hero-image">
-          <Zoom duration={1000}>
+          <Zoom duration={2000}>
               <img src={HeroLogo} loading="lazy" repeat-x alt='Rodeo Recovery Logo'/>
             </Zoom>
           </div>

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { FaPills } from "react-icons/fa";
 import { MdWorkOutline } from "react-icons/md";
 import { BiBrain } from "react-icons/bi";
-import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
+import Zoom from 'react-reveal/Zoom';
 
 const HomeSection1 = () => {
   return (
@@ -23,7 +23,7 @@ const HomeSection1 = () => {
         <div className="section1-cards">
           <div className="wwa-cards-contents">
             <div className="card1 card">
-              <Fade left>
+              <Zoom duration={1500}>
                 <div className="card-content">
                   <FaPills className="card-icon1" />
                   <h1>Substance Abuse Programs</h1>
@@ -33,13 +33,7 @@ const HomeSection1 = () => {
                     drugs, or other substance abuse disorders, find better
                     healing with us.
                   </p>
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/substance-abuse">
                       <div className="card3-btn">
                         <h5>LEARN MORE</h5>
@@ -47,11 +41,11 @@ const HomeSection1 = () => {
                     </Link>
                   </LinkRoll>
                 </div>
-              </Fade>
+                </Zoom>
             </div>
 
             <div className="card2 card">
-              <Fade top>
+              <Zoom duration={1500}>
                 <div className="card-content">
                   <MdWorkOutline className="card-icon2" />
                   <h1>Jobs Program</h1>
@@ -72,11 +66,11 @@ const HomeSection1 = () => {
                     </Link>
                   </LinkRoll>
                 </div>
-              </Fade>
+                </Zoom>
             </div>
 
             <div className="card3 card">
-              <Fade right>
+              <Zoom duration={1500}>
                 <div className="card-content">
                   <BiBrain className="card-icon3" />
                   <h1>Mental Health Programs</h1>
@@ -99,7 +93,7 @@ const HomeSection1 = () => {
                     </Link>
                   </LinkRoll>
                 </div>
-              </Fade>
+                </Zoom>
             </div>
           </div>
         </div>
