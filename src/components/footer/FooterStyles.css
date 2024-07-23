@@ -6,17 +6,8 @@
     height: auto;
     position: relative;
     background: #5a5c82;
-    /* background: linear-gradient(0deg, rgba(154,34,195,0.8785889355742297) 0%, rgba(130,45,253,1) 100%);    padding: 3rem 0; */
 }
 
-/* .footer:before {
-    content:'';
-    position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-} */
 
 .footer .container {
     display: flex;
@@ -96,10 +87,14 @@
     text-transform: uppercase;
     color: rgb(226, 140, 10);
     font-size: .8rem;
+    text-align: center;
+
 }
 
 .footer .license p {
     color: white;
+    text-align: center;
+
 }
 
 .footer .license img {
@@ -116,7 +111,7 @@
     margin: .5rem 0;
     color: white;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -131,32 +126,93 @@
 }
 
 
+.certification {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.certificationLeft {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.certificationRight {
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+
+}
+
+
+.certification h3 {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.certification p {
+    text-align: center;
+    color: white;
+}
+
+.certificationLeftImage {
+    width: 200px;
+    margin: auto;
+}
+
+.certificationLeftImage img{
+    width: 100%;
+}
+
+.certificationRightImage {
+    width: 300px;
+    margin: auto;
+}
+
+.certificationRightImage img{
+    width: 100%;
+}
+
+
+
+.certification a:hover {
+    text-align: center;
+    color: rgb(10, 208, 235);
+}
+
+
+@media screen and (max-width: 940px) {
+    .certification {
+        flex-wrap: wrap;
+    }
+
+    .certificationRight {
+        width: 100%;
+    }
+
+    .certificationLeft {
+        width: 100%;
+    }
+    
+
+}
+
+
+
+
 @media screen and (max-width: 1200px) {
     .footer {
         height: 100%;
     }
 
 
-    .footer h1, .footer h2, .footer h3 {
-        text-align: left;
-    }
-
-    .license {
-        width: 100%;
-        text-align: center;
-    }
 
     .footer-col h3, .footer-col p {
         text-align: center;
     }
 
-    .license h3 {
-        text-align: center;
-    }
-
-    .license p {
-        text-align: center;
-    }
 
     .footer .top .footer-icon {
         display: none;

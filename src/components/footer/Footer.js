@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 import logo from "../../assets/nav-logo.png";
-import DHCS from "../../assets/DHCS-logo.png";
+import DHCS from "../../assets/DHCS-logo2.png";
+import JointCommission from "../../assets/joint_commission_logo.webp";
 
 import "./FooterStyles.css";
 
@@ -145,31 +146,41 @@ const Footer = () => {
               </LinkRoll>
             </div>
 
-            <div className="license">
-              <h3>Licensed by the State Department of Health Care Services</h3>
-              <p>
-                License Number: 191057BP <br />
-                Expiration Date: 6 / 30 / 2025{" "}
-              </p>
-              <br />
 
-              <a
-                href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ( View License & Certification Information here ).
-              </a>
-              <div>
-                <img
-                  src={DHCS}
-                  width="300px"
-                  height="150px"
-                  alt="Rodeo Recovery Rehab Logo"
-                  loading="lazy"
-                />
-              </div>
-            </div>
+            <div className="certification">
+
+<div className="certificationLeft">
+      <h3>Licensed by the State Department of Health Care Services</h3>
+      <p>Certification number: 191057BP <br />Certification Expiration date: 6 / 30 / 2025</p>
+      <br />
+      <a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
+      target="_blank"
+      rel="noreferrer">( View License & Certification Information here ).</a>
+          <div className='certificationLeftImage'>
+              <img
+              src={DHCS}
+              alt="DHCS Logo"
+              loading="lazy"
+              />
+          </div>
+  </div>
+
+  <div className="certificationRight">
+      <h3>Rodeo Recovery by The Joint Commission and have been awarded its Gold Seal of Approval™</h3>
+      
+          <div className='certificationRightImage'>
+              <img
+              src={JointCommission}
+              alt="Joint Commission Logo"
+              loading="lazy"
+              />
+          </div>
+  </div>
+
+</div>
+
+
+
           </div>
 
           <p className="copyright">
