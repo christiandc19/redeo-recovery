@@ -166,7 +166,7 @@ const Footer = () => {
   </div>
 
   <div className="certificationRight">
-      <h3>Rodeo Recovery by The Joint Commission and have been awarded its Gold Seal of Approval™</h3>
+      <h3>Rodeo Recovery is accredited by The Joint Commission and have been awarded its Gold Seal of Approval™</h3>
       
           <div className='certificationRightImage'>
               <img
