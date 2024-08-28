@@ -7,6 +7,7 @@
     position: absolute;
     z-index: 10;
     background: #5a5c826b;
+    padding: .5rem 0;
 }
 
 .navbar .navbar-container {
@@ -18,7 +19,7 @@
 
 
 .navbar-logo {
-  width: 120px;
+  width: 180px;
   padding: .5rem;
   z-index: 2;
 }
@@ -75,7 +76,7 @@
   }
 
   .menu-item .sub__menus li a:hover {
-    color: rgb(255, 123, 0) !important;
+    color: rgb(255, 123, 0);
   }
 
 /* -----------------------------------------------------> SUB MENU */
@@ -155,5 +156,27 @@
 
 
 
+@media screen and (max-width: 500px) {
+  .navbar li {
+    width: 100%;
+    padding: 0 1rem;
+}
 
+  .sub__menus {
+    background: #bb8511;
+    border-radius: 0;
+    width: 100%;
+    left: 0;
+    margin-top: -.1rem;
+  }
+
+  .menu-item .sub__menus li a {
+    color: white;
+  }
+
+  .menu-item .sub__menus li a:hover {
+    color: rgb(32, 31, 31);
+  }
+
+}
 

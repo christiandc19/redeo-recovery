@@ -1,13 +1,15 @@
 import React, { useRef, useState } from "react";
 import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 import Fade from 'react-reveal/Fade';
 import emailjs from 'emailjs-com';
 import './ContactForm.css';
 
 const ContactForm = () => {
     const form = useRef();
-    const [feedbackVisible, setFeedbackVisible] = useState(false);
+    const [buttonText, setButtonText] = useState("Submit");
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -15,9 +17,9 @@ const ContactForm = () => {
         emailjs.sendForm("service_bdfl0ie", "template_mgwoix5", form.current, 'CLcHWAKSemVMd1_sU')
             .then((result) => {
                 console.log(result.text);
-                setFeedbackVisible(true);
+                setButtonText("Message Sent");
                 setTimeout(() => {
-                    setFeedbackVisible(false);
+                    setButtonText("Submit");
                 }, 4000);
             }, (error) => {
                 console.log(error.text);
@@ -28,12 +30,12 @@ const ContactForm = () => {
 
     return (
         <div className="bg">
-            <div className="contact2-header contact2-container">
+            <div className="contactFormHeader contact2-container">
                 <h1>DO YOU NEED URGENT HELP?</h1>
-                <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+                <p>Our Addiction and Recovery Support team is available to assist you.</p>
             </div>
 
-            <section className="contact-container">
+            <section className="contact-container container">
                 <Fade left>
                     <div className="contact-cards-container">
                         <div className="get_form_inner2">
@@ -98,13 +100,16 @@ const ContactForm = () => {
                                 required
                                 title="Please enter your message."
                             ></textarea>
-                            <input type="submit" value="Submit" />
+
+                <div className="disclaimer">
+                  <p>Rodeo Recovery needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
+                  <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/privacy-policy"><span> Privacy Policy </span></Link>
+                  </LinkRoll></p>
+                </div>
+
+                            <input type="submit" value={buttonText} />
                         </div>
-                        {feedbackVisible && (
-                            <div className="feedback">
-                                <h5>Message Sent!</h5>
-                            </div>
-                        )}
                     </form>
                 </div>
             </section>

@@ -44,7 +44,7 @@ import Schizophrenia from './routes/SchizophreniaPage';
 
 import Jobs from './routes/JOBS';
 import Team from './routes/Team';
-
+import PrivacyPolicyPage from './routes/PrivacyPolicyPage';
 
 ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
@@ -86,7 +86,7 @@ ReactDOM.render(
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/team' element={<Team />} />
       <Route exact path='/testimonials' element={<TestimonialPage />} />
-
+      <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
 
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />

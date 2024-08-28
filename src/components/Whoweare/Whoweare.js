@@ -3,7 +3,7 @@ import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
 
 import { BsCheckLg } from 'react-icons/bs';
-import HomeSection2Image from '../../assets/slider1.jpg'
+import HomeSection2Image from '../../assets/about_us_section.webp'
 import leaf2 from "../../assets/leaf.webp";
 
 
