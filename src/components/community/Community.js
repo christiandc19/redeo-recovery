@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 import './Community.css'
 import CommuntiySection from '../community/CommunitySection'
-import Contact2 from '../contact/Contact2'
+import Contact from '../contact/ContactForm'
 
 const Community = () => {
     return (
@@ -18,7 +18,7 @@ const Community = () => {
                 </div>
             </div>
         <CommuntiySection />
-        <Contact2 />
+        <Contact />
         </>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Treatment.css'
 
-import Contact2 from '../contact/Contact2';
+import Contact from '../contact/ContactForm'
 import TreatmentSection from './TreatmentSection';
 
 const Treatment = () => {
@@ -23,7 +23,7 @@ const Treatment = () => {
         </div>
 
         <TreatmentSection />
-        <Contact2 />
+        <Contact />
         </>
     )
 }

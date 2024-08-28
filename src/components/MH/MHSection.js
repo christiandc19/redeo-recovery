@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Contact2 from '../contact/Contact2'
+import Contact from '../contact/ContactForm'
 import Menus from '../menus/Menus';
 import InsuranceSection from '../insurance/InsuranceSection';
 
@@ -13,7 +13,7 @@ const MHSection = () => {
 
 <Menus />
 <InsuranceSection />
-<Contact2 />
+<Contact />
 
     </>
 
