@@ -100,7 +100,7 @@ const Navbar = () => {
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
+                            {/* <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li> */}
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/testimonials`}> Testimonials </NavLink> </li>
                         </ul>
                     </li>
